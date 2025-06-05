@@ -3,496 +3,1258 @@
     {
       "character_name": "Wolverine",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene X", "Gene Adamantium Bone Integration"],
-      "primary_powers": ["Accelerated Healing", "Retractable Bone Claws", "Enhanced Senses"],
+      "known_mutations_genes": [
+        "Gene X",
+        "Gene Adamantium Bone Integration"
+      ],
+      "primary_powers": [
+        "Accelerated Healing",
+        "Retractable Bone Claws",
+        "Enhanced Senses"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene X", "confers": "Accelerated Healing"},
-        {"gene": "Gene X", "confers": "Enhanced Senses"},
-        {"gene": "Gene Adamantium Bone Integration", "confers": "Retractable Bone Claws"}
-      ]
+        {
+          "gene": "Gene X",
+          "confers": "Accelerated Healing"
+        },
+        {
+          "gene": "Gene X",
+          "confers": "Enhanced Senses"
+        },
+        {
+          "gene": "Gene Adamantium Bone Integration",
+          "confers": "Retractable Bone Claws"
+        }
+      ],
+      "text_snippet": "Wolverine, born James Howlett in late 19th century northern Alberta, Canada, is the illegitimate son of the Howletts' groundskeeper, Thomas Logan. His mutant abilities first manifest when he kills Thomas in retaliation after Thomas murders James' supposed father, John Howlett. Fleeing with his childhood companion Rose, James adopts the name Logan and grows up in the Yukon. He develops animal-like senses, enhanced physical abilities, and a powerful healing factor. After accidentally killing Rose, he lives in the wilderness among wolves before being captured and later escaping from a secret program where his skeleton is fused with the indestructible metal adamantium. Throughout his life, Logan serves in various military and covert operations, including World War I and II, and experiences memory loss due to trauma and experimentation. He is known for his gruff, brooding nature and fierce combat skills, often struggling with berserker rage while being a skilled strategist and martial artist."
     },
     {
       "character_name": "Spider-Man",
       "affiliation": "Avengers",
-      "known_mutations_genes": ["Gene Arachnid", "Gene WC-1"],
-      "primary_powers": ["Wall Crawling", "Spider Sense", "Enhanced Strength"],
+      "known_mutations_genes": [
+        "Gene Arachnid",
+        "Gene WC-1"
+      ],
+      "primary_powers": [
+        "Wall Crawling",
+        "Spider Sense",
+        "Enhanced Strength"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene Arachnid", "confers": "Enhanced Strength"},
-        {"gene": "Gene Arachnid", "confers": "Spider Sense"},
-        {"gene": "Gene WC-1", "confers": "Wall Crawling"}
-      ]
+        {
+          "gene": "Gene Arachnid",
+          "confers": "Enhanced Strength"
+        },
+        {
+          "gene": "Gene Arachnid",
+          "confers": "Spider Sense"
+        },
+        {
+          "gene": "Gene WC-1",
+          "confers": "Wall Crawling"
+        }
+      ],
+      "text_snippet": "Spider-Man's secret identity is Peter Benjamin Parker, a teenage high school student and science whiz from Queens, New York City. Orphaned at a young age, he was raised by his Aunt May and Uncle Ben. During a science exhibit, Peter is bitten by a radioactive spider, which grants him spider-like abilities such as enhanced strength, agility, the ability to cling to surfaces, and a precognitive \"spider-sense\" that warns him of danger. Using his scientific skills, he creates web-shooters that allow him to fire adhesive webs. Initially, Peter uses his powers for personal gain and fame, but after a criminal he once ignored kills his Uncle Ben, Peter learns the crucial lesson that \"with great power there must also come great responsibility.\" This event motivates him to become a crime-fighter known as Spider-Man, balancing his life as a student and superhero."
     },
     {
       "character_name": "Magneto",
       "affiliation": "Brotherhood of Evil Mutants",
-      "known_mutations_genes": ["Gene EM-7", "Gene MM-3"],
-      "primary_powers": ["Magnetic Field Control", "Metal Manipulation", "Flight"],
+      "known_mutations_genes": [
+        "Gene EM-7",
+        "Gene MM-3"
+      ],
+      "primary_powers": [
+        "Magnetic Field Control",
+        "Metal Manipulation",
+        "Flight"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene EM-7", "confers": "Magnetic Field Control"},
-        {"gene": "Gene EM-7", "confers": "Flight"},
-        {"gene": "Gene MM-3", "confers": "Metal Manipulation"}
-      ]
+        {
+          "gene": "Gene EM-7",
+          "confers": "Magnetic Field Control"
+        },
+        {
+          "gene": "Gene EM-7",
+          "confers": "Flight"
+        },
+        {
+          "gene": "Gene MM-3",
+          "confers": "Metal Manipulation"
+        }
+      ],
+      "text_snippet": "Max Eisenhardt, also known as Erik Lehnsherr and Magneto, is a mutant with the power to control magnetic fields. His abilities first manifested during his incarceration at Auschwitz during World War II. Driven by his experiences during the Holocaust, Magneto is determined to protect mutants from suffering a similar fate. He views mutants as superior to humans and believes they should replace humans as the dominant species. Magneto was once friends with Charles Xavier, but their differing ideologies caused a rift in their friendship. He is willing to use deadly force to protect mutants and is considered both a villain and a hero."
     },
     {
       "character_name": "Storm",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene WC-9", "Gene AP-4"],
-      "primary_powers": ["Weather Manipulation", "Lightning Control", "Flight"],
+      "known_mutations_genes": [
+        "Gene WC-9",
+        "Gene AP-4"
+      ],
+      "primary_powers": [
+        "Weather Manipulation",
+        "Lightning Control",
+        "Flight"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene WC-9", "confers": "Weather Manipulation"},
-        {"gene": "Gene WC-9", "confers": "Lightning Control"},
-        {"gene": "Gene AP-4", "confers": "Flight"}
-      ]
+        {
+          "gene": "Gene WC-9",
+          "confers": "Weather Manipulation"
+        },
+        {
+          "gene": "Gene WC-9",
+          "confers": "Lightning Control"
+        },
+        {
+          "gene": "Gene AP-4",
+          "confers": "Flight"
+        }
+      ],
+      "text_snippet": "Ororo Munroe, known as Storm, is the daughter of a Kenyan tribal princess and an American photojournalist. Born in Harlem, she moved to Cairo as an infant, where she was orphaned after her parents died in a plane crash. This traumatic event left her with lifelong claustrophobia. As a child in Cairo, Ororo became a skilled thief before wandering into the Serengeti, where her ability to control the weather manifested. Revered as a goddess for her powers, she was eventually recruited to join the X-Men, where she became a prominent leader and one of the most powerful mutants. Storm is also known for her wisdom, leadership, and her significant relationships, including a marriage to Black Panther that made her queen consort of Wakanda for a time."
     },
     {
       "character_name": "Cyclops",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene OB-1", "Gene RQ-2"],
-      "primary_powers": ["Optic Energy Blasts", "Enhanced Vision", "Tactical Leadership"],
+      "known_mutations_genes": [
+        "Gene OB-1",
+        "Gene RQ-2"
+      ],
+      "primary_powers": [
+        "Optic Energy Blasts",
+        "Enhanced Vision",
+        "Tactical Leadership"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene OB-1", "confers": "Optic Energy Blasts"},
-        {"gene": "Gene RQ-2", "confers": "Enhanced Vision"}
-      ]
+        {
+          "gene": "Gene OB-1",
+          "confers": "Optic Energy Blasts"
+        },
+        {
+          "gene": "Gene RQ-2",
+          "confers": "Enhanced Vision"
+        }
+      ],
+      "text_snippet": "Cyclops, whose real name is Scott Summers, is a mutant born with the ability to emit powerful, concussive energy beams from his eyes. Due to a childhood injury and psychological trauma, he cannot control these optic blasts without the aid of special eyewear, which he must wear constantly. Scott is the eldest son of a U.S. Air Force pilot and was orphaned as a child after a plane crash caused by an alien attack, leading to his separation from his younger brother Alex. He was later taken in by a mentor who helps him harness his powers.\nAs a young man, Cyclops becomes the leader of a team of mutants who fight for peace and equality between mutants and humans. He is known for his exceptional leadership, strategic mind, and combat skills. His personal life is marked by complex relationships, including his enduring love for Jean Grey and conflicts involving his family lineage. Cyclops is often portrayed as a traditional hero figure, embodying discipline and responsibility in contrast to more rebellious characters. His archenemy is a geneticist obsessed with his family bloodline, who has manipulated events throughout his life."
     },
     {
       "character_name": "Jean Grey",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene TP-5", "Gene PF-1"],
-      "primary_powers": ["Telepathy", "Telekinesis", "Phoenix Force"],
+      "known_mutations_genes": [
+        "Gene TP-5",
+        "Gene PF-1"
+      ],
+      "primary_powers": [
+        "Telepathy",
+        "Telekinesis",
+        "Phoenix Force"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene TP-5", "confers": "Telepathy"},
-        {"gene": "Gene TP-5", "confers": "Telekinesis"},
-        {"gene": "Gene PF-1", "confers": "Phoenix Force"}
-      ]
+        {
+          "gene": "Gene TP-5",
+          "confers": "Telepathy"
+        },
+        {
+          "gene": "Gene TP-5",
+          "confers": "Telekinesis"
+        },
+        {
+          "gene": "Gene PF-1",
+          "confers": "Phoenix Force"
+        }
+      ],
+      "text_snippet": "Jean Grey is a mutant born with powerful psionic abilities, primarily telekinesis and telepathy. She is the youngest daughter of John and Elaine Grey and grew up in a loving family near Bard College. Her mutant powers first manifested traumatically when she mentally linked with her dying best friend, which left her emotionally withdrawn. To help her control her abilities, Charles Xavier placed psychic blocks on her mind during her youth, allowing her to initially use only telekinesis. Later, she joined Xavier's school for gifted youngsters and became a founding member of the X-Men under the codename Marvel Girl.\nJean is known for her caring and nurturing nature but also for her immense power as an Omega-level mutant. She is famously connected to the cosmic Phoenix Force, which amplifies her abilities to god-like levels, enabling her to manipulate matter and energy on a vast scale. This connection has led to significant transformations in her character, including becoming the Phoenix and later the Dark Phoenix, during which she struggled with immense power and its consequences. Despite these challenges, Jean remains a central figure who balances her humanity with her extraordinary powers, often sacrificing herself to protect others."
     },
     {
       "character_name": "The Hulk",
       "affiliation": "Avengers",
-      "known_mutations_genes": ["Gene GR-8", "Gene SR-3"],
-      "primary_powers": ["Super Strength", "Invulnerability", "Regeneration"],
+      "known_mutations_genes": [
+        "Gene GR-8",
+        "Gene SR-3"
+      ],
+      "primary_powers": [
+        "Super Strength",
+        "Invulnerability",
+        "Regeneration"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene GR-8", "confers": "Super Strength"},
-        {"gene": "Gene GR-8", "confers": "Invulnerability"},
-        {"gene": "Gene SR-3", "confers": "Regeneration"}
-      ]
+        {
+          "gene": "Gene GR-8",
+          "confers": "Super Strength"
+        },
+        {
+          "gene": "Gene GR-8",
+          "confers": "Invulnerability"
+        },
+        {
+          "gene": "Gene SR-3",
+          "confers": "Regeneration"
+        }
+      ],
+      "text_snippet": "Dr. Bruce Banner is a brilliant scientist who, after being exposed to gamma radiation during an experimental bomb test, transforms into the Hulk whenever he experiences intense emotional stress, especially anger. The Hulk is a massive, green-skinned being possessing immense physical strength that increases with his rage. This transformation often occurs against Banner's will, leading to destructive rampages that complicate his life. The character embodies a duality between Banner's reserved, intellectual persona and the Hulk's raw, uncontrollable power. Despite being seen as a threat by many, the Hulk is often portrayed as a hero struggling with his inner turmoil and the consequences of his transformations."
     },
     {
       "character_name": "Professor X",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene OT-1", "Gene MC-6"],
-      "primary_powers": ["Telepathy", "Mind Control", "Astral Projection"],
+      "known_mutations_genes": [
+        "Gene OT-1",
+        "Gene MC-6"
+      ],
+      "primary_powers": [
+        "Telepathy",
+        "Mind Control",
+        "Astral Projection"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene OT-1", "confers": "Telepathy"},
-        {"gene": "Gene MC-6", "confers": "Mind Control"},
-        {"gene": "Gene OT-1", "confers": "Astral Projection"}
-      ]
+        {
+          "gene": "Gene OT-1",
+          "confers": "Telepathy"
+        },
+        {
+          "gene": "Gene MC-6",
+          "confers": "Mind Control"
+        },
+        {
+          "gene": "Gene OT-1",
+          "confers": "Astral Projection"
+        }
+      ],
+      "text_snippet": "Professor Charles Francis Xavier, known as Professor X, is a powerful mutant telepath and a scientific genius with expertise in genetics, psychology, and biophysics. Born to a nuclear researcher father, he experienced family tragedy early on and showed exceptional intelligence and athleticism, though he gave up sports due to his mutant abilities. He earned multiple advanced degrees, including Ph.D.s and an M.D. in Psychiatry, and was appointed adjunct professor at Columbia University. Xavier is the founder of a private school for mutants, providing a safe haven where they can learn to control their powers. He is also the founder and leader of the X-Men, a team dedicated to promoting peaceful coexistence between mutants and humans. Despite being paralyzed and using a wheelchair, Xavier remains a formidable telepath and a key figure advocating for mutant rights and equality. His mansion serves as the base for his school and the X-Men's operations. Over time, he shifted from seeking peaceful integration to establishing a mutant nation. He has also faced significant personal and external challenges, including battles with enemies and internal conflicts within the mutant community."
     },
     {
       "character_name": "Mystique",
       "affiliation": "Brotherhood of Evil Mutants",
-      "known_mutations_genes": ["Gene SS-4", "Gene CA-7"],
-      "primary_powers": ["Shapeshifting", "Voice Mimicry", "Enhanced Longevity"],
+      "known_mutations_genes": [
+        "Gene SS-4",
+        "Gene CA-7"
+      ],
+      "primary_powers": [
+        "Shapeshifting",
+        "Voice Mimicry",
+        "Enhanced Longevity"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene SS-4", "confers": "Shapeshifting"},
-        {"gene": "Gene SS-4", "confers": "Voice Mimicry"},
-        {"gene": "Gene CA-7", "confers": "Enhanced Longevity"}
-      ]
+        {
+          "gene": "Gene SS-4",
+          "confers": "Shapeshifting"
+        },
+        {
+          "gene": "Gene SS-4",
+          "confers": "Voice Mimicry"
+        },
+        {
+          "gene": "Gene CA-7",
+          "confers": "Enhanced Longevity"
+        }
+      ],
+      "text_snippet": "Mystique, whose real name is Raven Darkh\u00f6lme, is a mutant with the power to shapeshift, allowing her to perfectly mimic the appearance and voice of any person. Her natural form features blue skin, red hair, and yellow eyes. Mystique's origins are mysterious, with her true age unknown, but she is believed to be over a century old. She has operated under various identities, including that of a consulting detective in the early 1900s and as a high-ranking government official. \nMystique is often portrayed as both a formidable adversary and an antiheroine. She has led groups like the Brotherhood of Mutants and has been involved in numerous plots affecting both mutants and humans. Her personal relationships are complex: she is the wife of Destiny (Irene Adler), the biological parent of Nightcrawler (conceived with Destiny while Mystique was in a male form), the mother of the villain Graydon Creed, and the adoptive mother of Rogue. Driven by a fierce commitment to mutant rights, Mystique is known for her cunning, adaptability, and willingness to use extreme tactics to achieve her goals.\n"
     },
     {
       "character_name": "Nightcrawler",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene TG-2", "Gene DS-5"],
-      "primary_powers": ["Teleportation", "Wall Crawling", "Night Vision"],
+      "known_mutations_genes": [
+        "Gene TG-2",
+        "Gene DS-5"
+      ],
+      "primary_powers": [
+        "Teleportation",
+        "Wall Crawling",
+        "Night Vision"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene TG-2", "confers": "Teleportation"},
-        {"gene": "Gene DS-5", "confers": "Wall Crawling"},
-        {"gene": "Gene DS-5", "confers": "Night Vision"}
-      ]
+        {
+          "gene": "Gene TG-2",
+          "confers": "Teleportation"
+        },
+        {
+          "gene": "Gene DS-5",
+          "confers": "Wall Crawling"
+        },
+        {
+          "gene": "Gene DS-5",
+          "confers": "Night Vision"
+        }
+      ],
+      "text_snippet": "Kurt Wagner, known as Nightcrawler, was born in the Bavarian village of Witzeldorf. His mother is the shapeshifter Mystique, and his father is the mutant Azazel, though his true parentage was hidden for many years. Due to his blue skin, pointed ears, yellow eyes, and a prehensile tail, Kurt was abandoned as an infant and later found and raised by the sorceress Margali Szardos, who took him in as her own alongside her children at a circus. Growing up, Kurt became an acrobat, cherished by the circus community despite his unusual appearance. His ability to teleport emerged during adolescence, adding to his already remarkable agility. Nightcrawler\u2019s early life was marked by tragedy: he accidentally killed his foster brother Stefan, fulfilling a childhood promise to stop him if he ever harmed innocents. Wrongly blamed for a series of murders, Kurt fled from angry villagers, setting the stage for his future as a heroic outcast."
     },
     {
       "character_name": "Rogue",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene PA-3", "Gene LF-1"],
-      "primary_powers": ["Power Absorption", "Life Force Drain", "Invulnerability"],
+      "known_mutations_genes": [
+        "Gene PA-3",
+        "Gene LF-1"
+      ],
+      "primary_powers": [
+        "Power Absorption",
+        "Life Force Drain",
+        "Invulnerability"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene PA-3", "confers": "Power Absorption"},
-        {"gene": "Gene LF-1", "confers": "Life Force Drain"},
-        {"gene": "Gene PA-3", "confers": "Invulnerability"}
-      ]
+        {
+          "gene": "Gene PA-3",
+          "confers": "Power Absorption"
+        },
+        {
+          "gene": "Gene LF-1",
+          "confers": "Life Force Drain"
+        },
+        {
+          "gene": "Gene PA-3",
+          "confers": "Invulnerability"
+        }
+      ],
+      "text_snippet": "Rogue is a character who grew up as the child of hippies in a commune in Mississippi. She has the power to absorb the life energy and abilities of others through touch, which has caused her to isolate herself due to the danger it poses to those she cares about. This inability to physically connect with others has led to fear and bitterness, sometimes putting her at odds with her team. Despite these challenges, she is a resilient and complex figure, navigating her powers and personal struggles while seeking acceptance and belonging."
     },
     {
       "character_name": "Iceman",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene CK-4", "Gene MI-8"],
-      "primary_powers": ["Ice Manipulation", "Ice Form", "Thermal Vision"],
+      "known_mutations_genes": [
+        "Gene CK-4",
+        "Gene MI-8"
+      ],
+      "primary_powers": [
+        "Ice Manipulation",
+        "Ice Form",
+        "Thermal Vision"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene CK-4", "confers": "Ice Manipulation"},
-        {"gene": "Gene MI-8", "confers": "Ice Form"},
-        {"gene": "Gene CK-4", "confers": "Thermal Vision"}
-      ]
+        {
+          "gene": "Gene CK-4",
+          "confers": "Ice Manipulation"
+        },
+        {
+          "gene": "Gene MI-8",
+          "confers": "Ice Form"
+        },
+        {
+          "gene": "Gene CK-4",
+          "confers": "Thermal Vision"
+        }
+      ],
+      "text_snippet": "Robert \"Bobby\" Drake, known as Iceman, is a mutant born in Tipano, New York, with the ability to manipulate ice and cold by freezing water vapor around him. He discovered his powers in his early teens but initially kept them hidden except from his parents. Bobby is a founding member of the X-Men and was recruited by Professor X after a dramatic rescue from a lynch mob. Over time, he learned to control his abilities more precisely, evolving from a snow-like form to a solid ice form that grants him protection and enhanced strength. His powers allow him to freeze objects, create ice constructs, transform his body into organic ice, and even travel by merging with water. He has also demonstrated the ability to heal himself and generate semi-independent ice structures. Beyond his powers, Bobby has received combat training and has a complex personality, balancing a playful, immature side with a serious and empathetic nature."
     },
     {
       "character_name": "Pyro",
       "affiliation": "Brotherhood of Evil Mutants",
-      "known_mutations_genes": ["Gene PK-6", "Gene FC-2"],
-      "primary_powers": ["Fire Manipulation", "Flame Immunity", "Heat Generation"],
+      "known_mutations_genes": [
+        "Gene PK-6",
+        "Gene FC-2"
+      ],
+      "primary_powers": [
+        "Fire Manipulation",
+        "Flame Immunity",
+        "Heat Generation"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene PK-6", "confers": "Fire Manipulation"},
-        {"gene": "Gene FC-2", "confers": "Flame Immunity"},
-        {"gene": "Gene PK-6", "confers": "Heat Generation"}
-      ]
+        {
+          "gene": "Gene PK-6",
+          "confers": "Fire Manipulation"
+        },
+        {
+          "gene": "Gene FC-2",
+          "confers": "Flame Immunity"
+        },
+        {
+          "gene": "Gene PK-6",
+          "confers": "Heat Generation"
+        }
+      ],
+      "text_snippet": "Madelyne Pryor is a complex character known as a supervillain and occasional antihero. She is a clone of Jean Grey and was once married to Scott Summers (Cyclops), with whom she has a son named Cable. Her story involves a tragic romance, manipulation, and transformation into the Goblin Queen, wielding powerful eldritch magic and commanding demons in the realm of Limbo. She created a mystical weapon called the Soul-Scythe and has demonstrated abilities such as healing wounds and interdimensional spirit location. Madelyne's character is marked by deep emotional pain and regret, which she channels into her magic. She has been portrayed as both a sympathetic figure and a formidable antagonist, with a significant role in various storylines involving the X-Men and related characters."
     },
     {
       "character_name": "Colossus",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene OS-7", "Gene MT-4"],
-      "primary_powers": ["Organic Steel Form", "Super Strength", "Invulnerability"],
+      "known_mutations_genes": [
+        "Gene OS-7",
+        "Gene MT-4"
+      ],
+      "primary_powers": [
+        "Organic Steel Form",
+        "Super Strength",
+        "Invulnerability"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene OS-7", "confers": "Organic Steel Form"},
-        {"gene": "Gene MT-4", "confers": "Super Strength"},
-        {"gene": "Gene OS-7", "confers": "Invulnerability"}
-      ]
+        {
+          "gene": "Gene OS-7",
+          "confers": "Organic Steel Form"
+        },
+        {
+          "gene": "Gene MT-4",
+          "confers": "Super Strength"
+        },
+        {
+          "gene": "Gene OS-7",
+          "confers": "Invulnerability"
+        }
+      ],
+      "text_snippet": "Colossus, whose real name is Piotr Rasputin, was born on a farm in rural Siberia, Russia. He discovered his mutant ability to transform his body into organic steel, granting him immense strength and durability. This power makes him physically the strongest member of his team. Despite his imposing metallic form, he is known for his gentle nature and artistic soul. He was recruited by Professor Charles Xavier to join a new team of mutants assembled to rescue the original members from captivity. Colossus is characterized by his peaceful and selfless demeanor, often putting himself at risk to protect others. His family, especially his younger sister Illyana, remains a central part of his story, influencing many of his actions and struggles. Throughout his journey, Colossus has faced brainwashing, intense battles, and personal tragedies, but he remains a steadfast protector and a key figure among mutants."
     },
     {
       "character_name": "Beast",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene EI-3", "Gene PE-5"],
-      "primary_powers": ["Genius Intelligence", "Enhanced Agility", "Super Strength"],
+      "known_mutations_genes": [
+        "Gene EI-3",
+        "Gene PE-5"
+      ],
+      "primary_powers": [
+        "Genius Intelligence",
+        "Enhanced Agility",
+        "Super Strength"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene EI-3", "confers": "Genius Intelligence"},
-        {"gene": "Gene PE-5", "confers": "Enhanced Agility"},
-        {"gene": "Gene PE-5", "confers": "Super Strength"}
-      ]
+        {
+          "gene": "Gene EI-3",
+          "confers": "Genius Intelligence"
+        },
+        {
+          "gene": "Gene PE-5",
+          "confers": "Enhanced Agility"
+        },
+        {
+          "gene": "Gene PE-5",
+          "confers": "Super Strength"
+        }
+      ],
+      "text_snippet": "Beast, whose real name is Henry \"Hank\" McCoy, is a mutant born with oversized hands and feet, granting him ape-like superhuman strength, agility, and dexterity. Initially appearing with a mostly human appearance, Hank later self-experimented and underwent a mutation that gave him blue fur, fangs, claws, and enhanced senses, making his appearance more animalistic while retaining his genius-level intellect. He is a brilliant scientist specializing in biochemistry and genetics, serving as a medical doctor and science instructor for his team. Despite his feral looks, Beast is known for his wit, intelligence, and activism against discrimination toward mutants. He is a founding member of a prominent mutant team and has also been affiliated with other superhero groups. Over time, he has faced internal struggles with his bestial nature but remains dedicated to using his physical and mental gifts for the betterment of both mutants and humans."
     },
     {
       "character_name": "Sabretooth",
       "affiliation": "Brotherhood of Evil Mutants",
-      "known_mutations_genes": ["Gene PG-9", "Gene ES-6"],
-      "primary_powers": ["Enhanced Senses", "Retractable Claws", "Accelerated Healing"],
+      "known_mutations_genes": [
+        "Gene PG-9",
+        "Gene ES-6"
+      ],
+      "primary_powers": [
+        "Enhanced Senses",
+        "Retractable Claws",
+        "Accelerated Healing"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene ES-6", "confers": "Enhanced Senses"},
-        {"gene": "Gene PG-9", "confers": "Retractable Claws"},
-        {"gene": "Gene PG-9", "confers": "Accelerated Healing"}
-      ]
+        {
+          "gene": "Gene ES-6",
+          "confers": "Enhanced Senses"
+        },
+        {
+          "gene": "Gene PG-9",
+          "confers": "Retractable Claws"
+        },
+        {
+          "gene": "Gene PG-9",
+          "confers": "Accelerated Healing"
+        }
+      ],
+      "text_snippet": "Sabretooth, whose real name is Victor Creed, is a fierce and brutal mutant known for his animalistic traits, including enhanced strength, agility, and regenerative healing abilities. He possesses sharp claws and fangs, reminiscent of a wild predator, and has a long history as both a ruthless villain and anti-hero. Sabretooth's violent nature and deep-seated rivalry with certain heroes define much of his complex and dark past."
     },
     {
       "character_name": "Deadpool",
       "affiliation": "X-Force",
-      "known_mutations_genes": ["Gene HF-X", "Gene CC-1"],
-      "primary_powers": ["Regenerative Healing", "Enhanced Reflexes", "Immortality"],
+      "known_mutations_genes": [
+        "Gene HF-X",
+        "Gene CC-1"
+      ],
+      "primary_powers": [
+        "Regenerative Healing",
+        "Enhanced Reflexes",
+        "Immortality"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene HF-X", "confers": "Regenerative Healing"},
-        {"gene": "Gene CC-1", "confers": "Immortality"},
-        {"gene": "Gene HF-X", "confers": "Enhanced Reflexes"}
-      ]
+        {
+          "gene": "Gene HF-X",
+          "confers": "Regenerative Healing"
+        },
+        {
+          "gene": "Gene CC-1",
+          "confers": "Immortality"
+        },
+        {
+          "gene": "Gene HF-X",
+          "confers": "Enhanced Reflexes"
+        }
+      ],
+      "text_snippet": "Deadpool is the alter ego of Wade Wilson, a Canadian mercenary known for his sharp wit and irreverent humor. After being diagnosed with terminal cancer, Wade volunteered for an experimental treatment under the Weapon X program, which aimed to create superhuman weapons. The treatment cured his cancer and granted him a powerful regenerative healing ability, but it also left him horribly disfigured and mentally unstable. Unlike traditional heroes, Deadpool operates with a morally ambiguous nature, often engaging in mercenary work while maintaining a chaotic and unpredictable personality. His healing factor allows him to survive virtually any injury, making him a formidable and relentless figure. Despite his rough exterior, he has complex relationships, including a deep bond with Vanessa Carlyle, his love interest. Deadpool\u2019s story is marked by his struggle with his identity, his dark humor, and his unconventional approach to heroism."
     },
     {
       "character_name": "Captain America",
       "affiliation": "Avengers",
-      "known_mutations_genes": ["Gene SS-1", "Gene EM-4"],
-      "primary_powers": ["Enhanced Strength", "Enhanced Speed", "Enhanced Endurance"],
+      "known_mutations_genes": [
+        "Gene SS-1",
+        "Gene EM-4"
+      ],
+      "primary_powers": [
+        "Enhanced Strength",
+        "Enhanced Speed",
+        "Enhanced Endurance"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene SS-1", "confers": "Enhanced Strength"},
-        {"gene": "Gene SS-1", "confers": "Enhanced Speed"},
-        {"gene": "Gene EM-4", "confers": "Enhanced Endurance"}
-      ]
+        {
+          "gene": "Gene SS-1",
+          "confers": "Enhanced Strength"
+        },
+        {
+          "gene": "Gene SS-1",
+          "confers": "Enhanced Speed"
+        },
+        {
+          "gene": "Gene EM-4",
+          "confers": "Enhanced Endurance"
+        }
+      ],
+      "text_snippet": "Captain America, whose real name is Steven \"Steve\" Rogers, was originally a frail young man from a poor background in New York City during the 1920s. Driven by a strong sense of patriotism, he attempted to enlist in the U.S. Army during World War II but was rejected due to his weak physical condition. He was then selected for a secret government project called \"Project Rebirth,\" where he was injected with a super-soldier serum that transformed him into the peak of human physical perfection, granting him enhanced strength, agility, and endurance. Adorned in a costume inspired by the American flag and wielding a nearly indestructible shield, Captain America became a symbol of hope and patriotism, fighting against the Axis powers and their villainous agents like the Red Skull. In the final days of the war, he was presumed dead but was later found frozen in suspended animation and revived in modern times, where he continues to fight for justice and freedom."
     },
     {
       "character_name": "Thor",
       "affiliation": "Avengers",
-      "known_mutations_genes": ["Gene AP-1", "Gene TC-9"],
-      "primary_powers": ["Super Strength", "Flight", "Lightning Control"],
+      "known_mutations_genes": [
+        "Gene AP-1",
+        "Gene TC-9"
+      ],
+      "primary_powers": [
+        "Super Strength",
+        "Flight",
+        "Lightning Control"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene AP-1", "confers": "Super Strength"},
-        {"gene": "Gene AP-1", "confers": "Flight"},
-        {"gene": "Gene TC-9", "confers": "Lightning Control"}
-      ]
+        {
+          "gene": "Gene AP-1",
+          "confers": "Super Strength"
+        },
+        {
+          "gene": "Gene AP-1",
+          "confers": "Flight"
+        },
+        {
+          "gene": "Gene TC-9",
+          "confers": "Lightning Control"
+        }
+      ],
+      "text_snippet": "Thor is the god of thunder, born to Odin, the king of the gods, and the Earth goddess Gaea. He was raised in Asgard, trained by Odin to become a warrior and future ruler. Thor wields the enchanted hammer Mjolnir, which grants him control over thunder, lightning, and flight, and can only be lifted by those deemed worthy. Known for his immense strength and extended lifespan, Thor has taken on various human identities, including the physician Donald Blake, through whom he initially experienced life on Earth without memory of his divine origins. His story includes battles against numerous foes, including his adoptive brother Loki, and alliances with other heroes. Thor has also served as a king of Asgard and has a close circle of allies such as Sif and the Warriors Three. His character is inspired by the Norse god of the same name, blending mythological elements with heroic adventures."
     },
     {
       "character_name": "Loki",
       "affiliation": "None",
-      "known_mutations_genes": ["Gene FG-2", "Gene IM-5"],
-      "primary_powers": ["Shapeshifting", "Illusion Creation", "Frost Manipulation"],
+      "known_mutations_genes": [
+        "Gene FG-2",
+        "Gene IM-5"
+      ],
+      "primary_powers": [
+        "Shapeshifting",
+        "Illusion Creation",
+        "Frost Manipulation"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene IM-5", "confers": "Shapeshifting"},
-        {"gene": "Gene IM-5", "confers": "Illusion Creation"},
-        {"gene": "Gene FG-2", "confers": "Frost Manipulation"}
-      ]
+        {
+          "gene": "Gene IM-5",
+          "confers": "Shapeshifting"
+        },
+        {
+          "gene": "Gene IM-5",
+          "confers": "Illusion Creation"
+        },
+        {
+          "gene": "Gene FG-2",
+          "confers": "Frost Manipulation"
+        }
+      ],
+      "text_snippet": "Loki is the son of the Frost Giant King Laufey from Jotunheim. Abandoned as a child due to his small and weak stature for a Frost Giant, he was found and adopted by Odin, the ruler of Asgard, and raised alongside Odin's son Thor. Despite being raised as a prince, Loki struggled with feelings of jealousy and resentment toward Thor, who was favored for his strength and bravery\u2014qualities Loki lacked. To compensate, Loki became highly skilled in magic and sorcery, earning the title \"God of Mischief\" for his cunning, trickery, and mastery of magical powers such as shapeshifting, illusion casting, and teleportation. His mischievous nature eventually turned to malice as he sought to claim the throne of Asgard, often plotting against Thor and others. Though primarily portrayed as a villain, Loki has also acted as an antihero when it suited his interests. His complex character blends intelligence, magical prowess, and a deep hunger for power and recognition."
     },
     {
       "character_name": "Black Widow",
       "affiliation": "Avengers",
-      "known_mutations_genes": ["Gene RR-3", "Gene ER-8"],
-      "primary_powers": ["Enhanced Agility", "Enhanced Reflexes", "Slowed Aging"],
+      "known_mutations_genes": [
+        "Gene RR-3",
+        "Gene ER-8"
+      ],
+      "primary_powers": [
+        "Enhanced Agility",
+        "Enhanced Reflexes",
+        "Slowed Aging"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene RR-3", "confers": "Enhanced Agility"},
-        {"gene": "Gene ER-8", "confers": "Enhanced Reflexes"},
-        {"gene": "Gene RR-3", "confers": "Slowed Aging"}
-      ]
+        {
+          "gene": "Gene RR-3",
+          "confers": "Enhanced Agility"
+        },
+        {
+          "gene": "Gene ER-8",
+          "confers": "Enhanced Reflexes"
+        },
+        {
+          "gene": "Gene RR-3",
+          "confers": "Slowed Aging"
+        }
+      ],
+      "text_snippet": "Black Widow, whose real name is Natalia \"Natasha\" Alianovna Romanova, was born in Russia and orphaned as an infant during an attack in Stalingrad. Raised by a soldier named Ivan Petrovich, she was later kidnapped by a secretive organization but rescued by heroic figures. Natasha was trained as a spy in a Soviet program called the Red Room, where she was enhanced through biotechnology to reach peak physical condition and slowed aging. The program also implanted false memories, including one of her being a ballerina. Initially working as a Soviet spy, she eventually defects and aligns with intelligence agencies and superhero teams in the United States. Known for her expert marksmanship, mastery of martial arts, stealth, and infiltration skills, she is a complex character driven by a desire to atone for her past and often operates with a morally ambiguous approach, including a willingness to kill when necessary. Despite her difficult past and identity struggles, she is confident, independent, and uses her abilities and attractiveness strategically in her missions."
     },
     {
       "character_name": "Hawkeye",
       "affiliation": "Avengers",
-      "known_mutations_genes": ["Gene PA-7", "Gene EV-4"],
-      "primary_powers": ["Perfect Accuracy", "Enhanced Vision", "Exceptional Reflexes"],
+      "known_mutations_genes": [
+        "Gene PA-7",
+        "Gene EV-4"
+      ],
+      "primary_powers": [
+        "Perfect Accuracy",
+        "Enhanced Vision",
+        "Exceptional Reflexes"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene PA-7", "confers": "Perfect Accuracy"},
-        {"gene": "Gene EV-4", "confers": "Enhanced Vision"},
-        {"gene": "Gene EV-4", "confers": "Exceptional Reflexes"}
-      ]
+        {
+          "gene": "Gene PA-7",
+          "confers": "Perfect Accuracy"
+        },
+        {
+          "gene": "Gene EV-4",
+          "confers": "Enhanced Vision"
+        },
+        {
+          "gene": "Gene EV-4",
+          "confers": "Exceptional Reflexes"
+        }
+      ],
+      "text_snippet": "Clint Barton, known as Hawkeye, was orphaned at an early age and ran away with his brother to join a traveling circus. There, he apprenticed under the Swordsman, a performer skilled with blades, and later trained in archery with Trickshot, the circus's archer. After discovering the Swordsman stealing from the circus and being left for dead in a fight, Barton recovered and honed his archery skills, eventually adopting the costumed identity of Hawkeye to fight crime. Initially a reluctant villain influenced by his love for the spy Black Widow, he later turned to heroism and became a valued member of the Avengers. Over time, he took on various roles, including briefly becoming the giant-sized Goliath and leading teams like the West Coast Avengers and the Thunderbolts. Hawkeye is known for his exceptional marksmanship, use of trick arrows, and complex personal relationships, including his marriage to Mockingbird and mentorship of Kate Bishop, who also took on the Hawkeye mantle."
     },
     {
       "character_name": "Ant-Man",
       "affiliation": "Avengers",
-      "known_mutations_genes": ["Gene PP-1", "Gene SM-6"],
-      "primary_powers": ["Size Manipulation", "Insect Communication", "Enhanced Strength"],
+      "known_mutations_genes": [
+        "Gene PP-1",
+        "Gene SM-6"
+      ],
+      "primary_powers": [
+        "Size Manipulation",
+        "Insect Communication",
+        "Enhanced Strength"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene PP-1", "confers": "Size Manipulation"},
-        {"gene": "Gene SM-6", "confers": "Insect Communication"},
-        {"gene": "Gene PP-1", "confers": "Enhanced Strength"}
-      ]
+        {
+          "gene": "Gene PP-1",
+          "confers": "Size Manipulation"
+        },
+        {
+          "gene": "Gene SM-6",
+          "confers": "Insect Communication"
+        },
+        {
+          "gene": "Gene PP-1",
+          "confers": "Enhanced Strength"
+        }
+      ],
+      "text_snippet": "Ant-Man is a superhero identity originally created by scientist Dr. Henry \"Hank\" Pym, who discovered a substance called Pym Particles that allows him to shrink to the size of an ant while retaining human strength. He also developed a helmet to communicate with and control ants. Pym became Ant-Man to fight crime and injustice after the tragic death of his first wife. He later partnered with Janet van Dyne, who became the Wasp, and together they were founding members of a prominent superhero team. Over time, Pym adopted other superhero identities, leaving the Ant-Man mantle to successors.\nOne notable successor is Scott Lang, a reformed thief and electronics expert who stole the Ant-Man suit to save his ill daughter. After proving his heroism, he was allowed to keep the suit and took on the role of Ant-Man, becoming a key member of various superhero teams. Lang's background as a single father and ex-convict adds a unique dimension to the Ant-Man legacy, blending personal struggles with heroic deeds."
     },
     {
       "character_name": "Wasp",
       "affiliation": "Avengers",
-      "known_mutations_genes": ["Gene PP-2", "Gene WG-3"],
-      "primary_powers": ["Size Manipulation", "Flight", "Energy Blasts"],
+      "known_mutations_genes": [
+        "Gene PP-2",
+        "Gene WG-3"
+      ],
+      "primary_powers": [
+        "Size Manipulation",
+        "Flight",
+        "Energy Blasts"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene PP-2", "confers": "Size Manipulation"},
-        {"gene": "Gene WG-3", "confers": "Flight"},
-        {"gene": "Gene PP-2", "confers": "Energy Blasts"}
-      ]
+        {
+          "gene": "Gene PP-2",
+          "confers": "Size Manipulation"
+        },
+        {
+          "gene": "Gene WG-3",
+          "confers": "Flight"
+        },
+        {
+          "gene": "Gene PP-2",
+          "confers": "Energy Blasts"
+        }
+      ],
+      "text_snippet": "The Wasp, whose real name is Janet van Dyne, is a superheroine known for her ability to shrink to a few centimeters in height, fly using insect-like wings, and fire bioelectric energy blasts. She is a founding member and longtime leader of the Avengers team. Janet comes from a wealthy background as the daughter of scientist Vernon van Dyne. After her father's death caused by an alien entity, she undergoes a biochemical procedure that grants her powers, which she uses alongside Ant-Man to defeat the alien and avenge her father. She has been depicted as a resourceful and powerful hero, also noted for her leadership within the team. Janet was married to Hank Pym (Ant-Man) and is the stepmother of Nadia van Dyne. Her character is recognized as one of the most notable and influential female heroes in comic book history."
     },
     {
       "character_name": "Doctor Strange",
       "affiliation": "Defenders",
-      "known_mutations_genes": ["Gene MA-1", "Gene DA-7"],
-      "primary_powers": ["Magic Manipulation", "Astral Projection", "Time Manipulation"],
+      "known_mutations_genes": [
+        "Gene MA-1",
+        "Gene DA-7"
+      ],
+      "primary_powers": [
+        "Magic Manipulation",
+        "Astral Projection",
+        "Time Manipulation"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene MA-1", "confers": "Magic Manipulation"},
-        {"gene": "Gene DA-7", "confers": "Astral Projection"},
-        {"gene": "Gene MA-1", "confers": "Time Manipulation"}
-      ]
+        {
+          "gene": "Gene MA-1",
+          "confers": "Magic Manipulation"
+        },
+        {
+          "gene": "Gene DA-7",
+          "confers": "Astral Projection"
+        },
+        {
+          "gene": "Gene MA-1",
+          "confers": "Time Manipulation"
+        }
+      ],
+      "text_snippet": "Dr. Stephen Vincent Strange is a brilliant but arrogant neurosurgeon who suffers severe nerve damage to his hands in a car accident, rendering him unable to perform surgery. Desperate to heal, he seeks out the Ancient One, a mystical figure in the Himalayas, who becomes his mentor. Strange trains under the Ancient One, mastering the mystic arts and martial skills. He acquires powerful magical artifacts like the Eye of Agamotto and the Cloak of Levitation, and takes the title of Sorcerer Supreme, becoming the primary protector of Earth against magical and mystical threats. He resides in the Sanctum Sanctorum in New York City, often aided by his friend Wong, and faces numerous mystical enemies including Baron Mordo and Dormammu."
     },
     {
       "character_name": "Daredevil",
       "affiliation": "Defenders",
-      "known_mutations_genes": ["Gene ES-9", "Gene RS-4"],
-      "primary_powers": ["Enhanced Senses", "Radar Sense", "Enhanced Reflexes"],
+      "known_mutations_genes": [
+        "Gene ES-9",
+        "Gene RS-4"
+      ],
+      "primary_powers": [
+        "Enhanced Senses",
+        "Radar Sense",
+        "Enhanced Reflexes"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene ES-9", "confers": "Enhanced Senses"},
-        {"gene": "Gene RS-4", "confers": "Radar Sense"},
-        {"gene": "Gene ES-9", "confers": "Enhanced Reflexes"}
-      ]
+        {
+          "gene": "Gene ES-9",
+          "confers": "Enhanced Senses"
+        },
+        {
+          "gene": "Gene RS-4",
+          "confers": "Radar Sense"
+        },
+        {
+          "gene": "Gene ES-9",
+          "confers": "Enhanced Reflexes"
+        }
+      ],
+      "text_snippet": "Matthew Michael \"Matt\" Murdock, known as Daredevil, is a lawyer from the Hell's Kitchen neighborhood of New York City who was blinded as a child in a chemical accident involving radioactive material. This accident heightened his remaining senses to superhuman levels and gave him a unique radar sense, allowing him to perceive his environment despite his blindness. Raised by his father, a boxer named Jack Murdock, Matt was driven to fight crime after his father was murdered by gangsters for refusing to throw a fight. Trained by a mysterious blind mentor named Stick, Matt became a skilled martial artist and vigilante. By day, he practices law to defend the innocent, and by night, he dons a devil-themed costume to combat corruption and crime in Hell's Kitchen, often facing formidable foes like the crime lord Wilson Fisk. His dual life as a lawyer and masked vigilante is marked by his commitment to justice and his struggle to maintain his secret identity."
     },
     {
       "character_name": "Luke Cage",
       "affiliation": "Defenders",
-      "known_mutations_genes": ["Gene SK-2", "Gene ED-5"],
-      "primary_powers": ["Steel Skin", "Super Strength", "Enhanced Durability"],
+      "known_mutations_genes": [
+        "Gene SK-2",
+        "Gene ED-5"
+      ],
+      "primary_powers": [
+        "Steel Skin",
+        "Super Strength",
+        "Enhanced Durability"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene SK-2", "confers": "Steel Skin"},
-        {"gene": "Gene ED-5", "confers": "Super Strength"},
-        {"gene": "Gene ED-5", "confers": "Enhanced Durability"}
-      ]
+        {
+          "gene": "Gene SK-2",
+          "confers": "Steel Skin"
+        },
+        {
+          "gene": "Gene ED-5",
+          "confers": "Super Strength"
+        },
+        {
+          "gene": "Gene ED-5",
+          "confers": "Enhanced Durability"
+        }
+      ],
+      "text_snippet": "Luke Cage, originally named Carl Lucas, is a superhero from Harlem who was once a gang member seeking a better life. After being framed for drug possession by a jealous friend, he was imprisoned and subjected to a sabotaged experiment that granted him superhuman strength and nearly impenetrable skin. Using these powers, he escaped prison and adopted the name Luke Cage, becoming a \"hero for hire\" and later a private detective. His stories often explore themes of racial and social justice, reflecting his background of poverty and his struggles against injustice. Cage is known for his strong sense of responsibility to protect his community, balancing his superhero work with efforts to support himself and his family. He has also partnered with other heroes and has a personal life as a husband and father."
     },
     {
       "character_name": "Iron Fist",
       "affiliation": "Defenders",
-      "known_mutations_genes": ["Gene CM-3", "Gene IF-1"],
-      "primary_powers": ["Chi Manipulation", "Enhanced Martial Arts", "Healing"],
+      "known_mutations_genes": [
+        "Gene CM-3",
+        "Gene IF-1"
+      ],
+      "primary_powers": [
+        "Chi Manipulation",
+        "Enhanced Martial Arts",
+        "Healing"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene CM-3", "confers": "Chi Manipulation"},
-        {"gene": "Gene IF-1", "confers": "Enhanced Martial Arts"},
-        {"gene": "Gene CM-3", "confers": "Healing"}
-      ]
+        {
+          "gene": "Gene CM-3",
+          "confers": "Chi Manipulation"
+        },
+        {
+          "gene": "Gene IF-1",
+          "confers": "Enhanced Martial Arts"
+        },
+        {
+          "gene": "Gene CM-3",
+          "confers": "Healing"
+        }
+      ],
+      "text_snippet": "Iron Fist, whose real name is Danny Rand, is a martial artist who trained for ten years in the mystical city of K'un-Lun, which appears on Earth only once every decade. As a child, Danny survived a plane crash that left him orphaned and stranded in the Himalayas. He was taken in by monks in K'un-Lun and trained under Lei Kung the Thunderer. To gain the power of the Iron Fist, Danny defeated the dragon Shou-Lao the Undying by blocking the dragon's chest scar with his own body, killing the dragon and burning a dragon-shaped mark onto his chest. He then plunged his fists into the molten heart of Shou-Lao, gaining the ability to channel his chi into a powerful, glowing fist capable of great destructive force.\nAfter earning the title of Iron Fist, Danny chose to leave the immortality of K'un-Lun and return to Earth to avenge his parents' deaths. Upon returning to New York, he faced numerous adversaries and cleared his name after being wrongfully blamed for murder. He became a superhero, often partnering with allies such as Misty Knight and Colleen Wing, and formed a close friendship and partnership with Luke Cage as part of the Heroes for Hire team. His story involves themes of revenge, honor, and mastering mystical martial arts powers passed down through a long lineage of Iron Fists."
     },
     {
       "character_name": "Jessica Jones",
       "affiliation": "Defenders",
-      "known_mutations_genes": ["Gene ES-1", "Gene LF-6"],
-      "primary_powers": ["Super Strength", "Limited Flight", "Enhanced Durability"],
+      "known_mutations_genes": [
+        "Gene ES-1",
+        "Gene LF-6"
+      ],
+      "primary_powers": [
+        "Super Strength",
+        "Limited Flight",
+        "Enhanced Durability"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene ES-1", "confers": "Super Strength"},
-        {"gene": "Gene LF-6", "confers": "Limited Flight"},
-        {"gene": "Gene ES-1", "confers": "Enhanced Durability"}
-      ]
+        {
+          "gene": "Gene ES-1",
+          "confers": "Super Strength"
+        },
+        {
+          "gene": "Gene LF-6",
+          "confers": "Limited Flight"
+        },
+        {
+          "gene": "Gene ES-1",
+          "confers": "Enhanced Durability"
+        }
+      ],
+      "text_snippet": "Jessica Jones, originally Jessica Campbell, experienced a tragic family car accident caused by a collision with a military convoy carrying radioactive chemicals, which killed her parents and brother and left her severely injured and in a coma. During her coma, she was subjected to clandestine experimental procedures that granted her superhuman abilities including strength, resilience, and flight. After waking, she was adopted by the Jones family and returned to school, where she faced ostracism. Discovering her powers, she initially took on the superhero alias \"Jewel\" and fought crime, but after traumatic experiences, including mind control by a villain, she gave up the superhero life. She later became a private investigator, using her abilities and street smarts to solve cases while grappling with her past trauma and complex relationships. Jessica is known for her brawling fighting style and reluctance to embrace the traditional superhero role, preferring to work alone or with a small circle of allies."
     },
     {
       "character_name": "Punisher",
       "affiliation": "None",
-      "known_mutations_genes": ["Gene ER-2", "Gene CT-8"],
-      "primary_powers": ["Enhanced Resilience", "Expert Marksman", "Tactical Genius"],
+      "known_mutations_genes": [
+        "Gene ER-2",
+        "Gene CT-8"
+      ],
+      "primary_powers": [
+        "Enhanced Resilience",
+        "Expert Marksman",
+        "Tactical Genius"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene ER-2", "confers": "Enhanced Resilience"},
-        {"gene": "Gene CT-8", "confers": "Expert Marksman"},
-        {"gene": "Gene CT-8", "confers": "Tactical Genius"}
-      ]
+        {
+          "gene": "Gene ER-2",
+          "confers": "Enhanced Resilience"
+        },
+        {
+          "gene": "Gene CT-8",
+          "confers": "Expert Marksman"
+        },
+        {
+          "gene": "Gene CT-8",
+          "confers": "Tactical Genius"
+        }
+      ],
+      "text_snippet": "Frank Castle, known as the Punisher, is a former U.S. Marine who became a vigilante after his wife and two children were murdered by mobsters for witnessing a killing in Central Park. Deeply affected by this tragedy and frustrated by the failure of the justice system to prosecute the killers, Castle wages a one-man war on crime using lethal force and a brutal brand of justice. He is highly skilled in hand-to-hand combat, guerrilla warfare, and marksmanship, and is recognized by the iconic skull emblem on his chest, which originated from a symbol worn by an enemy soldier he killed during his military service. Castle's background includes multiple tours of duty as a Marine Scout/Sniper, and his stories often explore themes of vengeance, justice, and the moral complexities of vigilantism. He operates primarily in New York City and is known for his uncompromising stance against criminals, often crossing paths with other heroes but maintaining his role as an antihero."
     },
     {
       "character_name": "Ghost Rider",
       "affiliation": "None",
-      "known_mutations_genes": ["Gene HF-7", "Gene SM-9"],
-      "primary_powers": ["Hellfire Control", "Penance Stare", "Supernatural Strength"],
+      "known_mutations_genes": [
+        "Gene HF-7",
+        "Gene SM-9"
+      ],
+      "primary_powers": [
+        "Hellfire Control",
+        "Penance Stare",
+        "Supernatural Strength"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene HF-7", "confers": "Hellfire Control"},
-        {"gene": "Gene SM-9", "confers": "Penance Stare"},
-        {"gene": "Gene HF-7", "confers": "Supernatural Strength"}
-      ]
+        {
+          "gene": "Gene HF-7",
+          "confers": "Hellfire Control"
+        },
+        {
+          "gene": "Gene SM-9",
+          "confers": "Penance Stare"
+        },
+        {
+          "gene": "Gene HF-7",
+          "confers": "Supernatural Strength"
+        }
+      ],
+      "text_snippet": "Ghost Rider is a supernatural antihero whose most iconic incarnation is Johnny Blaze, a motorcycle stuntman who makes a pact with the demon Mephisto to save his foster father from cancer. As a result, Blaze becomes bound to the demon Zarathos and transforms into Ghost Rider, a fiery skeletal figure with hellfire powers, riding a blazing motorcycle and wielding supernatural abilities to exact vengeance on evil souls. He struggles with the demonic influence within him while fighting both external threats and his own curse. Other individuals have also taken on the Ghost Rider mantle, each bonded with a Spirit of Vengeance, carrying on the legacy of punishing the wicked with hellfire and supernatural chains."
     },
     {
       "character_name": "Blade",
       "affiliation": "None",
-      "known_mutations_genes": ["Gene DG-1", "Gene VI-3"],
-      "primary_powers": ["Vampire Abilities", "Daylight Immunity", "Enhanced Senses"],
+      "known_mutations_genes": [
+        "Gene DG-1",
+        "Gene VI-3"
+      ],
+      "primary_powers": [
+        "Vampire Abilities",
+        "Daylight Immunity",
+        "Enhanced Senses"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene DG-1", "confers": "Vampire Abilities"},
-        {"gene": "Gene VI-3", "confers": "Daylight Immunity"},
-        {"gene": "Gene DG-1", "confers": "Enhanced Senses"}
-      ]
+        {
+          "gene": "Gene DG-1",
+          "confers": "Vampire Abilities"
+        },
+        {
+          "gene": "Gene VI-3",
+          "confers": "Daylight Immunity"
+        },
+        {
+          "gene": "Gene DG-1",
+          "confers": "Enhanced Senses"
+        }
+      ],
+      "text_snippet": "Blade, whose birth name is Eric Brooks, is a vampire hunter born under tragic circumstances. His mother was attacked and drained of blood by a vampire named Deacon Frost while giving birth to him, which resulted in Blade inheriting vampiric enzymes in his bloodstream. This unique physiology grants him superhuman abilities such as enhanced strength, speed, stamina, and a heightened healing factor, while also making him immune to vampire bites and hypnotism. Trained by the vampire hunter Jamal Afari, Blade became a skilled martial artist and expert in various weapons, especially bladed ones, earning him his moniker. He dedicates his life to eradicating vampires, often working alone due to the personal losses he has suffered in his fight against the undead. Blade's mixed heritage as a dhampir\u2014a half-human, half-vampire hybrid\u2014gives him an intrinsic connection to vampires, fueling his relentless pursuit to protect humanity from them."
     },
     {
       "character_name": "Gambit",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene KE-4", "Gene MA-8"],
-      "primary_powers": ["Kinetic Energy Manipulation", "Enhanced Agility", "Charm"],
+      "known_mutations_genes": [
+        "Gene KE-4",
+        "Gene MA-8"
+      ],
+      "primary_powers": [
+        "Kinetic Energy Manipulation",
+        "Enhanced Agility",
+        "Charm"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene KE-4", "confers": "Kinetic Energy Manipulation"},
-        {"gene": "Gene MA-8", "confers": "Enhanced Agility"},
-        {"gene": "Gene KE-4", "confers": "Charm"}
-      ]
+        {
+          "gene": "Gene KE-4",
+          "confers": "Kinetic Energy Manipulation"
+        },
+        {
+          "gene": "Gene MA-8",
+          "confers": "Enhanced Agility"
+        },
+        {
+          "gene": "Gene KE-4",
+          "confers": "Charm"
+        }
+      ],
+      "text_snippet": "Gambit, whose real name is Remy \u00c9tienne LeBeau, is a Cajun from New Orleans with a proud heritage. He was kidnapped as a baby and raised by the LeBeau Clan Thieves Guild, where he learned thievery and stealth. His mutant ability allows him to charge objects, typically playing cards, with kinetic energy, causing them to explode on impact. Gambit is also skilled in hand-to-hand combat, acrobatics, and uses a staff in battle. He possesses a hypnotic charm that subtly influences others and has a mental shield that protects him from telepathic intrusion. His background involves complex ties to the Thieves Guild, a troubled past with arranged marriages and rival factions, and interactions with powerful figures like Mister Sinister. Despite his rough beginnings, Gambit becomes a key ally and leader in his team, driven by loyalty and love, especially for Rogue."
     },
     {
       "character_name": "Jubilee",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene PG-5", "Gene NP-2"],
-      "primary_powers": ["Pyrotechnic Blasts", "Light Generation", "Nuclear Fusion"],
+      "known_mutations_genes": [
+        "Gene PG-5",
+        "Gene NP-2"
+      ],
+      "primary_powers": [
+        "Pyrotechnic Blasts",
+        "Light Generation",
+        "Nuclear Fusion"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene PG-5", "confers": "Pyrotechnic Blasts"},
-        {"gene": "Gene PG-5", "confers": "Light Generation"},
-        {"gene": "Gene NP-2", "confers": "Nuclear Fusion"}
-      ]
+        {
+          "gene": "Gene PG-5",
+          "confers": "Pyrotechnic Blasts"
+        },
+        {
+          "gene": "Gene PG-5",
+          "confers": "Light Generation"
+        },
+        {
+          "gene": "Gene NP-2",
+          "confers": "Nuclear Fusion"
+        }
+      ],
+      "text_snippet": "Jubilation \"Jubilee\" Lee is the daughter of prosperous Chinese immigrants and was born in Beverly Hills, California. She was a talented gymnast with Olympic potential before her life was shattered when her parents were murdered by hitmen. Orphaned, she ran away from an orphanage and survived by living in a mall, where she discovered her mutant ability to generate explosive, pyrotechnic energy blasts from her hands, which she called \"fireworks.\" Using her powers, she entertained mall customers and evaded security and mutant hunters. Jubilee was eventually rescued by a group of female mutant heroes and followed them to their base, where she became involved in their missions and joined their team. She often played a sidekick role, especially to Wolverine, and was the youngest member of her team in the early 1990s. Over time, she faced many challenges, including losing and regaining her powers and even becoming a vampire before being cured. Jubilee is recognized as a prominent Asian American superhero."
     },
     {
       "character_name": "Psylocke",
       "affiliation": "X-Men",
-      "known_mutations_genes": ["Gene PK-8", "Gene TP-9"],
-      "primary_powers": ["Psychic Knife", "Telepathy", "Precognition"],
+      "known_mutations_genes": [
+        "Gene PK-8",
+        "Gene TP-9"
+      ],
+      "primary_powers": [
+        "Psychic Knife",
+        "Telepathy",
+        "Precognition"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene PK-8", "confers": "Psychic Knife"},
-        {"gene": "Gene TP-9", "confers": "Telepathy"},
-        {"gene": "Gene TP-9", "confers": "Precognition"}
-      ]
+        {
+          "gene": "Gene PK-8",
+          "confers": "Psychic Knife"
+        },
+        {
+          "gene": "Gene TP-9",
+          "confers": "Telepathy"
+        },
+        {
+          "gene": "Gene TP-9",
+          "confers": "Precognition"
+        }
+      ],
+      "text_snippet": "Psylocke is primarily the codename of Elizabeth \"Betsy\" Braddock, a British mutant with powerful telepathic abilities. She is the twin sister of Brian Braddock, known as Captain Britain. Betsy initially appears as a precognitive telepath and later develops full telepathy. After a series of events including body swapping with a Japanese ninja assassin named Kwannon, Betsy adopts the ninja skills and psychic abilities associated with that identity, including creating a psychic dagger. She has been a member of various mutant teams and has a complex background involving espionage, psychic trauma, and martial arts training. Over time, Betsy has also taken on the mantle of Captain Britain, while Kwannon becomes the second Psylocke. The character has undergone significant transformations, including a notable period where Betsy inhabited Kwannon's body, blending their memories and abilities."
     },
     {
       "character_name": "Cable",
       "affiliation": "X-Force",
-      "known_mutations_genes": ["Gene TK-7", "Gene TO-1"],
-      "primary_powers": ["Telekinesis", "Telepathy", "Time Travel"],
+      "known_mutations_genes": [
+        "Gene TK-7",
+        "Gene TO-1"
+      ],
+      "primary_powers": [
+        "Telekinesis",
+        "Telepathy",
+        "Time Travel"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene TK-7", "confers": "Telekinesis"},
-        {"gene": "Gene TK-7", "confers": "Telepathy"},
-        {"gene": "Gene TO-1", "confers": "Time Travel"}
-      ]
+        {
+          "gene": "Gene TK-7",
+          "confers": "Telekinesis"
+        },
+        {
+          "gene": "Gene TK-7",
+          "confers": "Telepathy"
+        },
+        {
+          "gene": "Gene TO-1",
+          "confers": "Time Travel"
+        }
+      ],
+      "text_snippet": "Cable, whose real name is Nathan Christopher Charles Summers, is the son of Cyclops and Madelyne Pryor, a clone of Jean Grey. As an infant, he was infected with a deadly techno-organic virus and sent to a possible future timeline for treatment. In that future, he grew into a powerful warrior and became the enemy of the villain Apocalypse. Cable possesses strong telepathic and telekinetic abilities, allowing him to read and manipulate minds, levitate objects, and shield his own mind. After returning to the present, he frequently allies with various mutant teams and characters, including the X-Men, X-Force, Deadpool, and others. He is also known for his time-traveling exploits and complex family connections involving clones and alternate timelines."
     },
     {
       "character_name": "Domino",
       "affiliation": "X-Force",
-      "known_mutations_genes": ["Gene PM-6", "Gene LF-8"],
-      "primary_powers": ["Probability Manipulation", "Enhanced Reflexes", "Marksmanship"],
+      "known_mutations_genes": [
+        "Gene PM-6",
+        "Gene LF-8"
+      ],
+      "primary_powers": [
+        "Probability Manipulation",
+        "Enhanced Reflexes",
+        "Marksmanship"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene PM-6", "confers": "Probability Manipulation"},
-        {"gene": "Gene LF-8", "confers": "Enhanced Reflexes"},
-        {"gene": "Gene LF-8", "confers": "Marksmanship"}
-      ]
+        {
+          "gene": "Gene PM-6",
+          "confers": "Probability Manipulation"
+        },
+        {
+          "gene": "Gene LF-8",
+          "confers": "Enhanced Reflexes"
+        },
+        {
+          "gene": "Gene LF-8",
+          "confers": "Marksmanship"
+        }
+      ],
+      "text_snippet": "Domino, whose real name is Neena Thurman, is a mutant mercenary known for her ability to manipulate probability in her favor, effectively giving her extraordinary \"good luck\" during missions. She was created as part of a secret government breeding program aimed at producing the ultimate weapon, but after her powers manifested, she escaped and became a freelance mercenary. Domino is characterized by her pale skin, black markings around one eye, and her proficiency with various weapons, often depicted in tactical gear. She has worked with various teams and has a complex history involving love and betrayal, including a relationship with the genius Milo Thurman. Her powers and skills make her a formidable and unpredictable combatant, often leading to remarkable coincidences that benefit her in dangerous situations."
     },
     {
       "character_name": "Quicksilver",
       "affiliation": "Avengers",
-      "known_mutations_genes": ["Gene SS-9", "Gene MV-4"],
-      "primary_powers": ["Super Speed", "Enhanced Reflexes", "Molecular Vibration"],
+      "known_mutations_genes": [
+        "Gene SS-9",
+        "Gene MV-4"
+      ],
+      "primary_powers": [
+        "Super Speed",
+        "Enhanced Reflexes",
+        "Molecular Vibration"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene SS-9", "confers": "Super Speed"},
-        {"gene": "Gene SS-9", "confers": "Enhanced Reflexes"},
-        {"gene": "Gene MV-4", "confers": "Molecular Vibration"}
-      ]
+        {
+          "gene": "Gene SS-9",
+          "confers": "Super Speed"
+        },
+        {
+          "gene": "Gene SS-9",
+          "confers": "Enhanced Reflexes"
+        },
+        {
+          "gene": "Gene MV-4",
+          "confers": "Molecular Vibration"
+        }
+      ],
+      "text_snippet": "Quicksilver, whose real name is Pietro Maximoff, is a mutant with the ability to move at superhuman speeds. He possesses enhanced agility and reflexes, enabling him to perform extraordinary feats such as running up walls, creating cyclones, and even running across water. His powers make him one of the fastest characters, capable of outrunning lightning and engaging in high-speed combat."
     },
     {
       "character_name": "Scarlet Witch",
       "affiliation": "Avengers",
-      "known_mutations_genes": ["Gene CM-7", "Gene RA-3"],
-      "primary_powers": ["Chaos Magic", "Reality Manipulation", "Hex Bolts"],
+      "known_mutations_genes": [
+        "Gene CM-7",
+        "Gene RA-3"
+      ],
+      "primary_powers": [
+        "Chaos Magic",
+        "Reality Manipulation",
+        "Hex Bolts"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene CM-7", "confers": "Chaos Magic"},
-        {"gene": "Gene RA-3", "confers": "Reality Manipulation"},
-        {"gene": "Gene CM-7", "confers": "Hex Bolts"}
-      ]
+        {
+          "gene": "Gene CM-7",
+          "confers": "Chaos Magic"
+        },
+        {
+          "gene": "Gene RA-3",
+          "confers": "Reality Manipulation"
+        },
+        {
+          "gene": "Gene CM-7",
+          "confers": "Hex Bolts"
+        }
+      ],
+      "text_snippet": "Scarlet Witch, also known as Wanda Maximoff, is a powerful sorceress with the ability to manipulate reality and chaos magic. Born to Romani parents and initially believed to be mutants, she possesses extraordinary powers that include telekinesis, energy manipulation, and probability alteration. Her complex background involves a journey from a troubled past to becoming a key figure in various heroic teams. Scarlet Witch\u2019s story is marked by personal struggles, immense power, and a deep connection to her twin brother, Quicksilver."
     },
     {
       "character_name": "Vision",
       "affiliation": "Avengers",
-      "known_mutations_genes": ["Gene SB-1", "Gene DC-5"],
-      "primary_powers": ["Density Manipulation", "Phasing", "Solar Energy Beams"],
+      "known_mutations_genes": [
+        "Gene SB-1",
+        "Gene DC-5"
+      ],
+      "primary_powers": [
+        "Density Manipulation",
+        "Phasing",
+        "Solar Energy Beams"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene DC-5", "confers": "Density Manipulation"},
-        {"gene": "Gene DC-5", "confers": "Phasing"},
-        {"gene": "Gene SB-1", "confers": "Solar Energy Beams"}
-      ]
+        {
+          "gene": "Gene DC-5",
+          "confers": "Density Manipulation"
+        },
+        {
+          "gene": "Gene DC-5",
+          "confers": "Phasing"
+        },
+        {
+          "gene": "Gene SB-1",
+          "confers": "Solar Energy Beams"
+        }
+      ],
+      "text_snippet": "Vision is an android, sometimes referred to as a \"synthezoid,\" created by Ultron, a robotic villain conceived by Hank Pym. Originally envisioned as Ultron's \"son\" with the purpose of destroying the Avengers, Vision defied his creator and instead aligned himself with the Avengers to fight for good. He possesses a flawless computer brain and the power to manipulate his density. Vision was created from a copy of the original Human Torch, with Ultron adding advanced technology, new programming, and a copy of human brainwave patterns. The resulting synthezoid is driven by logic but capable of emotions and emotional growth."
     },
     {
       "character_name": "Falcon",
       "affiliation": "Avengers",
-      "known_mutations_genes": ["Gene BC-2", "Gene EE-7"],
-      "primary_powers": ["Flight", "Bird Communication", "Enhanced Endurance"],
+      "known_mutations_genes": [
+        "Gene BC-2",
+        "Gene EE-7"
+      ],
+      "primary_powers": [
+        "Flight",
+        "Bird Communication",
+        "Enhanced Endurance"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene EE-7", "confers": "Flight"},
-        {"gene": "Gene BC-2", "confers": "Bird Communication"},
-        {"gene": "Gene EE-7", "confers": "Enhanced Endurance"}
-      ]
+        {
+          "gene": "Gene EE-7",
+          "confers": "Flight"
+        },
+        {
+          "gene": "Gene BC-2",
+          "confers": "Bird Communication"
+        },
+        {
+          "gene": "Gene EE-7",
+          "confers": "Enhanced Endurance"
+        }
+      ],
+      "text_snippet": "Samuel \"Sam\" Wilson, known as Falcon, is a superhero who uses advanced mechanical wings to fly and fight. Originally a social worker from Harlem, Wilson becomes a hero after teaming up with Steve Rogers and taking on the Falcon persona to inspire and lead others in their struggle for freedom. He possesses a unique ability to communicate telepathically and empathically with birds, particularly his trained falcon, Redwing. Over time, Wilson becomes a close partner to Captain America, even taking up the Captain America mantle himself and leading the Avengers. Falcon is notable as one of the first major Black superheroes in mainstream American comics."
     },
     {
       "character_name": "Doctor Doom",
       "affiliation": "None",
-      "known_mutations_genes": ["Gene SG-3", "Gene TG-8"],
-      "primary_powers": ["Magic Manipulation", "Technological Mastery", "Energy Projection"],
+      "known_mutations_genes": [
+        "Gene SG-3",
+        "Gene TG-8"
+      ],
+      "primary_powers": [
+        "Magic Manipulation",
+        "Technological Mastery",
+        "Energy Projection"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene SG-3", "confers": "Magic Manipulation"},
-        {"gene": "Gene TG-8", "confers": "Technological Mastery"},
-        {"gene": "Gene SG-3", "confers": "Energy Projection"}
-      ]
+        {
+          "gene": "Gene SG-3",
+          "confers": "Magic Manipulation"
+        },
+        {
+          "gene": "Gene TG-8",
+          "confers": "Technological Mastery"
+        },
+        {
+          "gene": "Gene SG-3",
+          "confers": "Energy Projection"
+        }
+      ],
+      "text_snippet": "Victor von Doom, known as Doctor Doom, was born to a Romani family in the small European nation of Latveria. His mother, a witch, died after making a pact with a demon, and his father, a medicine man, was later killed due to political revenge. Orphaned, Victor discovered his mother\u2019s mystical artifacts and vowed revenge. Gifted with exceptional scientific intellect, he earned a scholarship to study in the United States, where he met and rivaled Reed Richards. An experiment to contact his deceased mother went wrong, leaving Victor's face scarred and leading to his expulsion. He then traveled to Tibet, where he mastered mystical disciplines and had a suit of armor and iron mask forged to hide his disfigurement. Returning to Latveria, he overthrew the monarchy and became its ruler. Combining his mastery of science and sorcery, Doctor Doom seeks global domination, the rescue of his mother\u2019s soul, and to prove his superiority over Reed Richards."
     },
     {
       "character_name": "Green Goblin",
       "affiliation": "None",
-      "known_mutations_genes": ["Gene GF-1", "Gene ES-4"],
-      "primary_powers": ["Enhanced Strength", "Enhanced Speed", "Regenerative Healing"],
+      "known_mutations_genes": [
+        "Gene GF-1",
+        "Gene ES-4"
+      ],
+      "primary_powers": [
+        "Enhanced Strength",
+        "Enhanced Speed",
+        "Regenerative Healing"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene GF-1", "confers": "Enhanced Strength"},
-        {"gene": "Gene ES-4", "confers": "Enhanced Speed"},
-        {"gene": "Gene GF-1", "confers": "Regenerative Healing"}
-      ]
+        {
+          "gene": "Gene GF-1",
+          "confers": "Enhanced Strength"
+        },
+        {
+          "gene": "Gene ES-4",
+          "confers": "Enhanced Speed"
+        },
+        {
+          "gene": "Gene GF-1",
+          "confers": "Regenerative Healing"
+        }
+      ],
+      "text_snippet": "The Green Goblin is the alter ego of Norman Osborn, a brilliant but ruthless industrialist and scientist. After experimenting on himself with an unstable performance-enhancing serum known as the \"Goblin Formula,\" Osborn gains superhuman strength, speed, reflexes, endurance, and a heightened healing ability. However, this serum also induces a split personality, creating a crazed and violent alternate identity known as the Green Goblin. As the Green Goblin, Osborn becomes a criminal mastermind who uses an array of high-tech, Halloween-themed weaponry, including pumpkin bombs and razor-sharp bat-shaped blades, along with a flying Goblin Glider to terrorize his enemies. His intelligence is enhanced to gifted levels, but at the cost of his sanity, making him one of the most unhinged and terrifying villains. Despite his madness, Osborn remains a cunning strategist and skilled engineer. The Green Goblin is primarily known as the archenemy of Spider-Man, engaging in deadly confrontations and psychological warfare against him."
     },
     {
       "character_name": "Venom",
       "affiliation": "None",
-      "known_mutations_genes": ["Gene SB-7", "Gene OW-2"],
-      "primary_powers": ["Enhanced Strength", "Web Generation", "Shapeshifting"],
+      "known_mutations_genes": [
+        "Gene SB-7",
+        "Gene OW-2"
+      ],
+      "primary_powers": [
+        "Enhanced Strength",
+        "Web Generation",
+        "Shapeshifting"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene SB-7", "confers": "Enhanced Strength"},
-        {"gene": "Gene OW-2", "confers": "Web Generation"},
-        {"gene": "Gene SB-7", "confers": "Shapeshifting"}
-      ]
+        {
+          "gene": "Gene SB-7",
+          "confers": "Enhanced Strength"
+        },
+        {
+          "gene": "Gene OW-2",
+          "confers": "Web Generation"
+        },
+        {
+          "gene": "Gene SB-7",
+          "confers": "Shapeshifting"
+        }
+      ],
+      "text_snippet": "Venom is a sentient alien symbiote with a liquid-like, amorphous form that survives by bonding with a human host, granting them enhanced powers. Initially introduced as a living alien costume, its first host was Spider-Man, who later rejected it upon discovering its malevolent nature. The symbiote then bonded with Eddie Brock, a disgraced journalist harboring a deep hatred for Spider-Man, and together they became Venom. This entity started as one of Spider-Man's most formidable villains but gradually evolved into an antihero, sometimes even aiding Spider-Man. Venom possesses abilities similar to Spider-Man's, amplified by the symbiote's alien nature, and is known for its distinctive black appearance with a white spider symbol."
     },
     {
       "character_name": "Carnage",
       "affiliation": "None",
-      "known_mutations_genes": ["Gene CS-4", "Gene BB-6"],
-      "primary_powers": ["Enhanced Strength", "Weapon Generation", "Symbiote Control"],
+      "known_mutations_genes": [
+        "Gene CS-4",
+        "Gene BB-6"
+      ],
+      "primary_powers": [
+        "Enhanced Strength",
+        "Weapon Generation",
+        "Symbiote Control"
+      ],
       "gene_power_relationships": [
-        {"gene": "Gene CS-4", "confers": "Enhanced Strength"},
-        {"gene": "Gene BB-6", "confers": "Weapon Generation"},
-        {"gene": "Gene CS-4", "confers": "Symbiote Control"}
-      ]
+        {
+          "gene": "Gene CS-4",
+          "confers": "Enhanced Strength"
+        },
+        {
+          "gene": "Gene BB-6",
+          "confers": "Weapon Generation"
+        },
+        {
+          "gene": "Gene CS-4",
+          "confers": "Symbiote Control"
+        }
+      ],
+      "text_snippet": "Carnage is a supervillain born from the bonding of an alien symbiote offspring with Cletus Kasady, a psychopathic serial killer. Kasady was originally incarcerated for multiple murders and shared a cell with Eddie Brock, the host of the Venom symbiote. When Venom escaped prison, it left behind its offspring, which then bonded with Kasady, creating Carnage. This new symbiotic entity is far more violent and powerful than Venom due to the stronger bond with Kasady and the symbiote's biology. Carnage embarks on a murderous spree, marked by his signature of writing \"Carnage\" in blood at crime scenes. The character is known for his chaotic and brutal nature, making him a deadly and nightmarish menace."
     }
   ]
 }
