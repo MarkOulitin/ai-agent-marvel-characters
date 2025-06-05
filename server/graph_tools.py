@@ -23,7 +23,7 @@ def query_characters_database(cypher_query: str):
     The database has 4 types of nodes: Character, Power, Gene and Team
     All names are case sensitive. When matching with specific string use lowercase, e.g. ```WHERE toLower(p.name) = toLower("Lightning Control")```.
     Here are the cypher commands that ingested the data into the databse and define the links between the nodes:
-    * Addint a character (superhero or villian):
+    * Adding a character (superhero or villian):
     ```MERGE (c:Character {name: $name})
     SET c.text_snippet = $text_snippet```
     * Character is memeber of a team:

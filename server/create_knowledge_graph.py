@@ -1,9 +1,10 @@
-import json
 from neo4j import GraphDatabase
 from typing import Dict, Any
-import os
 from dotenv import load_dotenv
 from tqdm import tqdm
+import json
+import os
+import time
 
 load_dotenv()
 
@@ -131,15 +132,32 @@ class Neo4jDataIngestion:
         
         print(f"Ingested {len(data['characters'])} characters into Neo4j")
 
-if __name__ == "__main__":
-    def main():
-        ingestion = Neo4jDataIngestion()
+def main():
+    ingestion = Neo4jDataIngestion()
+    last_attempt = 0
+    max_attempts = 20
+    for attempt in range(max_attempts):
         try:
-            ingestion.ingest_json_file('marvel_dataset.json')
-            print("Data ingested into Neo4j successfully!")
+            ingestion.driver.verify_connectivity()
+            break
         except Exception as e:
-            print(f"Error ingesting data: {e}")
-            return
-        finally:
-            ingestion.close()
+            print(f"[{attempt+1}/{max_attempts}] Not connected to Neo4j (probably Neo4j server still in setup): {e}", flush=True)
+        last_attempt = attempt
+        if last_attempt >= max_attempts-1:
+            print('Timeout for conneting to Neo4j', flush=True)
+            exit(1)
+        else:
+            time.sleep(5)
+
+    print('Successfully connected to Neo4j!', flush=True)
+    try:
+        ingestion.ingest_json_file(os.path.join(os.path.dirname(__file__), 'marvel_dataset.json'))
+        print("Data ingested into Neo4j successfully!")
+    except Exception as e:
+        print(f"Error ingesting data: {e}")
+        return
+    finally:
+        ingestion.close()
+
+if __name__ == "__main__":
     main()

@@ -74,6 +74,10 @@ async def get_character_graph(character: str) -> Dict[str, Any]:
         raise HTTPException(status_code=500, detail=f"Error retrieving character data: {str(e)}")
 
 if __name__ == "__main__":
+    if bool(os.getenv('POPULATE_DATABASE')):
+        from create_knowledge_graph import main
+        main()
+
     server_port = int(os.getenv('SERVER_PORT'))
     logger.info(f'Server is listening at port {server_port}')
     uvicorn.run(app, host="0.0.0.0", port=server_port)

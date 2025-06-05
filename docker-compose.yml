@@ -12,13 +12,33 @@ services:
       - neo4j_logs:/logs
       - neo4j_import:/var/lib/neo4j/import
       - neo4j_plugins:/plugins
+    networks:
+      - marvel-network
   redis:
     image: redis:latest
     container_name: redis
     ports:
       - 6379:6379
-    
+    networks:
+      - marvel-network
+  server:
+    image: marvel-ai-agent:latest
+    container_name: server
+    env_file:
+      - .env
+    depends_on:
+      - neo4j
+      - redis
+    ports:
+      - 8000:8000
+    volumes:
+      - ./logs:/home/logs
+    networks:
+      - marvel-network
 
+networks:
+  marvel-network:
+    driver: bridge
 volumes:
   neo4j_data:
   neo4j_logs:
