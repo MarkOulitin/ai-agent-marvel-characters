@@ -12,6 +12,12 @@ services:
       - neo4j_logs:/logs
       - neo4j_import:/var/lib/neo4j/import
       - neo4j_plugins:/plugins
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - 6379:6379
+    
 
 volumes:
   neo4j_data:

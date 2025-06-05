@@ -9,12 +9,12 @@ from graph_tools import query_characters_database
 from typing import Annotated,Sequence, TypedDict
 from dotenv import load_dotenv
 from langfuse.callback import CallbackHandler
+from logger import logger
 
 load_dotenv(override=True)
 
 class AgentState(TypedDict):
     messages: Annotated[Sequence[BaseMessage], add_messages]
-    number_of_steps: int
 
 def setup_workflow():
     tools = [query_characters_database]
@@ -28,15 +28,17 @@ def setup_workflow():
 
     tools_by_name = {tool.name: tool for tool in tools}
 
-    def call_tool(state: AgentState):
+    def call_tool(state: AgentState, config: RunnableConfig):
         """Tool node"""
         outputs = []
         for tool_call in state["messages"][-1].tool_calls:
-            tool_result = tools_by_name[tool_call["name"]].invoke(tool_call["args"])
+            tool_name = tool_call["name"]
+            logger.info(f"Calling tool {tool_name}, request_id {config['metadata']['request_id']}, langfuse_trace_id {config['callbacks'].handlers[0].trace.id}")
+            tool_result = tools_by_name[tool_name].invoke(tool_call["args"])
             outputs.append(
                 ToolMessage(
                     content=tool_result,
-                    name=tool_call["name"],
+                    name=tool_name,
                     tool_call_id=tool_call["id"],
                 )
             )
@@ -45,11 +47,13 @@ def setup_workflow():
     def call_model(state: AgentState, config: RunnableConfig):
         """LLM node"""
         response = model.invoke(state["messages"], config)
+        logger.info(f"Calling llm, request_id {config['metadata']['request_id']}, langfuse_trace_id {config['callbacks'].handlers[0].trace.id}")
         return {"messages": [response]}
 
-    def should_continue(state: AgentState):
+    def should_continue(state: AgentState, config: RunnableConfig):
         messages = state["messages"]
         if not messages[-1].tool_calls:
+            logger.info(f"Finishing agentic workflow, request_id {config['metadata']['request_id']}, langfuse_trace_id {config['callbacks'].handlers[0].trace.id}")
             return "end"
         return "continue"
 
@@ -81,17 +85,23 @@ langfuse_callback = CallbackHandler(
 graph = setup_workflow()
 
 if __name__ == '__main__':
+    import uuid
     inputs = {
         "messages": [
             ("user", "Tell me what you know about Wolverine genes and his team members genes")
         ]
     }
 
+    request_id = str(uuid.uuid4())
     response = graph.invoke(
         inputs, 
         config={
-            "callbacks": [langfuse_callback]
+            "callbacks": [langfuse_callback],
+            "metadata": {
+                "request_id": request_id,
+            },
         }
     )
 
-    print(response['messages'][-1].content)
+    logger.info(f'Answer for request id {request_id}:')
+    logger.info(response['messages'][-1].content)

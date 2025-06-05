@@ -2,6 +2,7 @@ from neo4j import GraphDatabase
 from langchain_core.tools import tool
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
+from logger import logger
 import os
 import json
 
@@ -52,7 +53,7 @@ def query_characters_database(cypher_query: str):
     except Exception as e:
         return f"Error executing query: {str(e)}"
 
-def character_neighbors(character_name):
+def character_neighbors(character_name, request_id=None):
     cypher_query = """
     MATCH (c:Character {name: $character_name})
     OPTIONAL MATCH (c)-[:HAS_MUTATION]->(g:Gene)
@@ -79,4 +80,6 @@ def character_neighbors(character_name):
                 "teams": [t for t in record["teams"] if t]
             }
     except Exception as e:
+        logger.error(f'Got error in quering character neighbors: {e}, request_id {request_id}')
+        logger.exception(e)
         return {"error": f"Error querying character: {str(e)}"}
