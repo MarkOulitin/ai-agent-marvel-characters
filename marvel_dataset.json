@@ -1,0 +1,498 @@
+{
+  "characters": [
+    {
+      "character_name": "Wolverine",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene X", "Gene Adamantium Bone Integration"],
+      "primary_powers": ["Accelerated Healing", "Retractable Bone Claws", "Enhanced Senses"],
+      "gene_power_relationships": [
+        {"gene": "Gene X", "confers": "Accelerated Healing"},
+        {"gene": "Gene X", "confers": "Enhanced Senses"},
+        {"gene": "Gene Adamantium Bone Integration", "confers": "Retractable Bone Claws"}
+      ]
+    },
+    {
+      "character_name": "Spider-Man",
+      "affiliation": "Avengers",
+      "known_mutations_genes": ["Gene Arachnid", "Gene WC-1"],
+      "primary_powers": ["Wall Crawling", "Spider Sense", "Enhanced Strength"],
+      "gene_power_relationships": [
+        {"gene": "Gene Arachnid", "confers": "Enhanced Strength"},
+        {"gene": "Gene Arachnid", "confers": "Spider Sense"},
+        {"gene": "Gene WC-1", "confers": "Wall Crawling"}
+      ]
+    },
+    {
+      "character_name": "Magneto",
+      "affiliation": "Brotherhood of Evil Mutants",
+      "known_mutations_genes": ["Gene EM-7", "Gene MM-3"],
+      "primary_powers": ["Magnetic Field Control", "Metal Manipulation", "Flight"],
+      "gene_power_relationships": [
+        {"gene": "Gene EM-7", "confers": "Magnetic Field Control"},
+        {"gene": "Gene EM-7", "confers": "Flight"},
+        {"gene": "Gene MM-3", "confers": "Metal Manipulation"}
+      ]
+    },
+    {
+      "character_name": "Storm",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene WC-9", "Gene AP-4"],
+      "primary_powers": ["Weather Manipulation", "Lightning Control", "Flight"],
+      "gene_power_relationships": [
+        {"gene": "Gene WC-9", "confers": "Weather Manipulation"},
+        {"gene": "Gene WC-9", "confers": "Lightning Control"},
+        {"gene": "Gene AP-4", "confers": "Flight"}
+      ]
+    },
+    {
+      "character_name": "Cyclops",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene OB-1", "Gene RQ-2"],
+      "primary_powers": ["Optic Energy Blasts", "Enhanced Vision", "Tactical Leadership"],
+      "gene_power_relationships": [
+        {"gene": "Gene OB-1", "confers": "Optic Energy Blasts"},
+        {"gene": "Gene RQ-2", "confers": "Enhanced Vision"}
+      ]
+    },
+    {
+      "character_name": "Jean Grey",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene TP-5", "Gene PF-1"],
+      "primary_powers": ["Telepathy", "Telekinesis", "Phoenix Force"],
+      "gene_power_relationships": [
+        {"gene": "Gene TP-5", "confers": "Telepathy"},
+        {"gene": "Gene TP-5", "confers": "Telekinesis"},
+        {"gene": "Gene PF-1", "confers": "Phoenix Force"}
+      ]
+    },
+    {
+      "character_name": "The Hulk",
+      "affiliation": "Avengers",
+      "known_mutations_genes": ["Gene GR-8", "Gene SR-3"],
+      "primary_powers": ["Super Strength", "Invulnerability", "Regeneration"],
+      "gene_power_relationships": [
+        {"gene": "Gene GR-8", "confers": "Super Strength"},
+        {"gene": "Gene GR-8", "confers": "Invulnerability"},
+        {"gene": "Gene SR-3", "confers": "Regeneration"}
+      ]
+    },
+    {
+      "character_name": "Professor X",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene OT-1", "Gene MC-6"],
+      "primary_powers": ["Telepathy", "Mind Control", "Astral Projection"],
+      "gene_power_relationships": [
+        {"gene": "Gene OT-1", "confers": "Telepathy"},
+        {"gene": "Gene MC-6", "confers": "Mind Control"},
+        {"gene": "Gene OT-1", "confers": "Astral Projection"}
+      ]
+    },
+    {
+      "character_name": "Mystique",
+      "affiliation": "Brotherhood of Evil Mutants",
+      "known_mutations_genes": ["Gene SS-4", "Gene CA-7"],
+      "primary_powers": ["Shapeshifting", "Voice Mimicry", "Enhanced Longevity"],
+      "gene_power_relationships": [
+        {"gene": "Gene SS-4", "confers": "Shapeshifting"},
+        {"gene": "Gene SS-4", "confers": "Voice Mimicry"},
+        {"gene": "Gene CA-7", "confers": "Enhanced Longevity"}
+      ]
+    },
+    {
+      "character_name": "Nightcrawler",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene TG-2", "Gene DS-5"],
+      "primary_powers": ["Teleportation", "Wall Crawling", "Night Vision"],
+      "gene_power_relationships": [
+        {"gene": "Gene TG-2", "confers": "Teleportation"},
+        {"gene": "Gene DS-5", "confers": "Wall Crawling"},
+        {"gene": "Gene DS-5", "confers": "Night Vision"}
+      ]
+    },
+    {
+      "character_name": "Rogue",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene PA-3", "Gene LF-1"],
+      "primary_powers": ["Power Absorption", "Life Force Drain", "Invulnerability"],
+      "gene_power_relationships": [
+        {"gene": "Gene PA-3", "confers": "Power Absorption"},
+        {"gene": "Gene LF-1", "confers": "Life Force Drain"},
+        {"gene": "Gene PA-3", "confers": "Invulnerability"}
+      ]
+    },
+    {
+      "character_name": "Iceman",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene CK-4", "Gene MI-8"],
+      "primary_powers": ["Ice Manipulation", "Ice Form", "Thermal Vision"],
+      "gene_power_relationships": [
+        {"gene": "Gene CK-4", "confers": "Ice Manipulation"},
+        {"gene": "Gene MI-8", "confers": "Ice Form"},
+        {"gene": "Gene CK-4", "confers": "Thermal Vision"}
+      ]
+    },
+    {
+      "character_name": "Pyro",
+      "affiliation": "Brotherhood of Evil Mutants",
+      "known_mutations_genes": ["Gene PK-6", "Gene FC-2"],
+      "primary_powers": ["Fire Manipulation", "Flame Immunity", "Heat Generation"],
+      "gene_power_relationships": [
+        {"gene": "Gene PK-6", "confers": "Fire Manipulation"},
+        {"gene": "Gene FC-2", "confers": "Flame Immunity"},
+        {"gene": "Gene PK-6", "confers": "Heat Generation"}
+      ]
+    },
+    {
+      "character_name": "Colossus",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene OS-7", "Gene MT-4"],
+      "primary_powers": ["Organic Steel Form", "Super Strength", "Invulnerability"],
+      "gene_power_relationships": [
+        {"gene": "Gene OS-7", "confers": "Organic Steel Form"},
+        {"gene": "Gene MT-4", "confers": "Super Strength"},
+        {"gene": "Gene OS-7", "confers": "Invulnerability"}
+      ]
+    },
+    {
+      "character_name": "Beast",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene EI-3", "Gene PE-5"],
+      "primary_powers": ["Genius Intelligence", "Enhanced Agility", "Super Strength"],
+      "gene_power_relationships": [
+        {"gene": "Gene EI-3", "confers": "Genius Intelligence"},
+        {"gene": "Gene PE-5", "confers": "Enhanced Agility"},
+        {"gene": "Gene PE-5", "confers": "Super Strength"}
+      ]
+    },
+    {
+      "character_name": "Sabretooth",
+      "affiliation": "Brotherhood of Evil Mutants",
+      "known_mutations_genes": ["Gene PG-9", "Gene ES-6"],
+      "primary_powers": ["Enhanced Senses", "Retractable Claws", "Accelerated Healing"],
+      "gene_power_relationships": [
+        {"gene": "Gene ES-6", "confers": "Enhanced Senses"},
+        {"gene": "Gene PG-9", "confers": "Retractable Claws"},
+        {"gene": "Gene PG-9", "confers": "Accelerated Healing"}
+      ]
+    },
+    {
+      "character_name": "Deadpool",
+      "affiliation": "X-Force",
+      "known_mutations_genes": ["Gene HF-X", "Gene CC-1"],
+      "primary_powers": ["Regenerative Healing", "Enhanced Reflexes", "Immortality"],
+      "gene_power_relationships": [
+        {"gene": "Gene HF-X", "confers": "Regenerative Healing"},
+        {"gene": "Gene CC-1", "confers": "Immortality"},
+        {"gene": "Gene HF-X", "confers": "Enhanced Reflexes"}
+      ]
+    },
+    {
+      "character_name": "Captain America",
+      "affiliation": "Avengers",
+      "known_mutations_genes": ["Gene SS-1", "Gene EM-4"],
+      "primary_powers": ["Enhanced Strength", "Enhanced Speed", "Enhanced Endurance"],
+      "gene_power_relationships": [
+        {"gene": "Gene SS-1", "confers": "Enhanced Strength"},
+        {"gene": "Gene SS-1", "confers": "Enhanced Speed"},
+        {"gene": "Gene EM-4", "confers": "Enhanced Endurance"}
+      ]
+    },
+    {
+      "character_name": "Thor",
+      "affiliation": "Avengers",
+      "known_mutations_genes": ["Gene AP-1", "Gene TC-9"],
+      "primary_powers": ["Super Strength", "Flight", "Lightning Control"],
+      "gene_power_relationships": [
+        {"gene": "Gene AP-1", "confers": "Super Strength"},
+        {"gene": "Gene AP-1", "confers": "Flight"},
+        {"gene": "Gene TC-9", "confers": "Lightning Control"}
+      ]
+    },
+    {
+      "character_name": "Loki",
+      "affiliation": "None",
+      "known_mutations_genes": ["Gene FG-2", "Gene IM-5"],
+      "primary_powers": ["Shapeshifting", "Illusion Creation", "Frost Manipulation"],
+      "gene_power_relationships": [
+        {"gene": "Gene IM-5", "confers": "Shapeshifting"},
+        {"gene": "Gene IM-5", "confers": "Illusion Creation"},
+        {"gene": "Gene FG-2", "confers": "Frost Manipulation"}
+      ]
+    },
+    {
+      "character_name": "Black Widow",
+      "affiliation": "Avengers",
+      "known_mutations_genes": ["Gene RR-3", "Gene ER-8"],
+      "primary_powers": ["Enhanced Agility", "Enhanced Reflexes", "Slowed Aging"],
+      "gene_power_relationships": [
+        {"gene": "Gene RR-3", "confers": "Enhanced Agility"},
+        {"gene": "Gene ER-8", "confers": "Enhanced Reflexes"},
+        {"gene": "Gene RR-3", "confers": "Slowed Aging"}
+      ]
+    },
+    {
+      "character_name": "Hawkeye",
+      "affiliation": "Avengers",
+      "known_mutations_genes": ["Gene PA-7", "Gene EV-4"],
+      "primary_powers": ["Perfect Accuracy", "Enhanced Vision", "Exceptional Reflexes"],
+      "gene_power_relationships": [
+        {"gene": "Gene PA-7", "confers": "Perfect Accuracy"},
+        {"gene": "Gene EV-4", "confers": "Enhanced Vision"},
+        {"gene": "Gene EV-4", "confers": "Exceptional Reflexes"}
+      ]
+    },
+    {
+      "character_name": "Ant-Man",
+      "affiliation": "Avengers",
+      "known_mutations_genes": ["Gene PP-1", "Gene SM-6"],
+      "primary_powers": ["Size Manipulation", "Insect Communication", "Enhanced Strength"],
+      "gene_power_relationships": [
+        {"gene": "Gene PP-1", "confers": "Size Manipulation"},
+        {"gene": "Gene SM-6", "confers": "Insect Communication"},
+        {"gene": "Gene PP-1", "confers": "Enhanced Strength"}
+      ]
+    },
+    {
+      "character_name": "Wasp",
+      "affiliation": "Avengers",
+      "known_mutations_genes": ["Gene PP-2", "Gene WG-3"],
+      "primary_powers": ["Size Manipulation", "Flight", "Energy Blasts"],
+      "gene_power_relationships": [
+        {"gene": "Gene PP-2", "confers": "Size Manipulation"},
+        {"gene": "Gene WG-3", "confers": "Flight"},
+        {"gene": "Gene PP-2", "confers": "Energy Blasts"}
+      ]
+    },
+    {
+      "character_name": "Doctor Strange",
+      "affiliation": "Defenders",
+      "known_mutations_genes": ["Gene MA-1", "Gene DA-7"],
+      "primary_powers": ["Magic Manipulation", "Astral Projection", "Time Manipulation"],
+      "gene_power_relationships": [
+        {"gene": "Gene MA-1", "confers": "Magic Manipulation"},
+        {"gene": "Gene DA-7", "confers": "Astral Projection"},
+        {"gene": "Gene MA-1", "confers": "Time Manipulation"}
+      ]
+    },
+    {
+      "character_name": "Daredevil",
+      "affiliation": "Defenders",
+      "known_mutations_genes": ["Gene ES-9", "Gene RS-4"],
+      "primary_powers": ["Enhanced Senses", "Radar Sense", "Enhanced Reflexes"],
+      "gene_power_relationships": [
+        {"gene": "Gene ES-9", "confers": "Enhanced Senses"},
+        {"gene": "Gene RS-4", "confers": "Radar Sense"},
+        {"gene": "Gene ES-9", "confers": "Enhanced Reflexes"}
+      ]
+    },
+    {
+      "character_name": "Luke Cage",
+      "affiliation": "Defenders",
+      "known_mutations_genes": ["Gene SK-2", "Gene ED-5"],
+      "primary_powers": ["Steel Skin", "Super Strength", "Enhanced Durability"],
+      "gene_power_relationships": [
+        {"gene": "Gene SK-2", "confers": "Steel Skin"},
+        {"gene": "Gene ED-5", "confers": "Super Strength"},
+        {"gene": "Gene ED-5", "confers": "Enhanced Durability"}
+      ]
+    },
+    {
+      "character_name": "Iron Fist",
+      "affiliation": "Defenders",
+      "known_mutations_genes": ["Gene CM-3", "Gene IF-1"],
+      "primary_powers": ["Chi Manipulation", "Enhanced Martial Arts", "Healing"],
+      "gene_power_relationships": [
+        {"gene": "Gene CM-3", "confers": "Chi Manipulation"},
+        {"gene": "Gene IF-1", "confers": "Enhanced Martial Arts"},
+        {"gene": "Gene CM-3", "confers": "Healing"}
+      ]
+    },
+    {
+      "character_name": "Jessica Jones",
+      "affiliation": "Defenders",
+      "known_mutations_genes": ["Gene ES-1", "Gene LF-6"],
+      "primary_powers": ["Super Strength", "Limited Flight", "Enhanced Durability"],
+      "gene_power_relationships": [
+        {"gene": "Gene ES-1", "confers": "Super Strength"},
+        {"gene": "Gene LF-6", "confers": "Limited Flight"},
+        {"gene": "Gene ES-1", "confers": "Enhanced Durability"}
+      ]
+    },
+    {
+      "character_name": "Punisher",
+      "affiliation": "None",
+      "known_mutations_genes": ["Gene ER-2", "Gene CT-8"],
+      "primary_powers": ["Enhanced Resilience", "Expert Marksman", "Tactical Genius"],
+      "gene_power_relationships": [
+        {"gene": "Gene ER-2", "confers": "Enhanced Resilience"},
+        {"gene": "Gene CT-8", "confers": "Expert Marksman"},
+        {"gene": "Gene CT-8", "confers": "Tactical Genius"}
+      ]
+    },
+    {
+      "character_name": "Ghost Rider",
+      "affiliation": "None",
+      "known_mutations_genes": ["Gene HF-7", "Gene SM-9"],
+      "primary_powers": ["Hellfire Control", "Penance Stare", "Supernatural Strength"],
+      "gene_power_relationships": [
+        {"gene": "Gene HF-7", "confers": "Hellfire Control"},
+        {"gene": "Gene SM-9", "confers": "Penance Stare"},
+        {"gene": "Gene HF-7", "confers": "Supernatural Strength"}
+      ]
+    },
+    {
+      "character_name": "Blade",
+      "affiliation": "None",
+      "known_mutations_genes": ["Gene DG-1", "Gene VI-3"],
+      "primary_powers": ["Vampire Abilities", "Daylight Immunity", "Enhanced Senses"],
+      "gene_power_relationships": [
+        {"gene": "Gene DG-1", "confers": "Vampire Abilities"},
+        {"gene": "Gene VI-3", "confers": "Daylight Immunity"},
+        {"gene": "Gene DG-1", "confers": "Enhanced Senses"}
+      ]
+    },
+    {
+      "character_name": "Gambit",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene KE-4", "Gene MA-8"],
+      "primary_powers": ["Kinetic Energy Manipulation", "Enhanced Agility", "Charm"],
+      "gene_power_relationships": [
+        {"gene": "Gene KE-4", "confers": "Kinetic Energy Manipulation"},
+        {"gene": "Gene MA-8", "confers": "Enhanced Agility"},
+        {"gene": "Gene KE-4", "confers": "Charm"}
+      ]
+    },
+    {
+      "character_name": "Jubilee",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene PG-5", "Gene NP-2"],
+      "primary_powers": ["Pyrotechnic Blasts", "Light Generation", "Nuclear Fusion"],
+      "gene_power_relationships": [
+        {"gene": "Gene PG-5", "confers": "Pyrotechnic Blasts"},
+        {"gene": "Gene PG-5", "confers": "Light Generation"},
+        {"gene": "Gene NP-2", "confers": "Nuclear Fusion"}
+      ]
+    },
+    {
+      "character_name": "Psylocke",
+      "affiliation": "X-Men",
+      "known_mutations_genes": ["Gene PK-8", "Gene TP-9"],
+      "primary_powers": ["Psychic Knife", "Telepathy", "Precognition"],
+      "gene_power_relationships": [
+        {"gene": "Gene PK-8", "confers": "Psychic Knife"},
+        {"gene": "Gene TP-9", "confers": "Telepathy"},
+        {"gene": "Gene TP-9", "confers": "Precognition"}
+      ]
+    },
+    {
+      "character_name": "Cable",
+      "affiliation": "X-Force",
+      "known_mutations_genes": ["Gene TK-7", "Gene TO-1"],
+      "primary_powers": ["Telekinesis", "Telepathy", "Time Travel"],
+      "gene_power_relationships": [
+        {"gene": "Gene TK-7", "confers": "Telekinesis"},
+        {"gene": "Gene TK-7", "confers": "Telepathy"},
+        {"gene": "Gene TO-1", "confers": "Time Travel"}
+      ]
+    },
+    {
+      "character_name": "Domino",
+      "affiliation": "X-Force",
+      "known_mutations_genes": ["Gene PM-6", "Gene LF-8"],
+      "primary_powers": ["Probability Manipulation", "Enhanced Reflexes", "Marksmanship"],
+      "gene_power_relationships": [
+        {"gene": "Gene PM-6", "confers": "Probability Manipulation"},
+        {"gene": "Gene LF-8", "confers": "Enhanced Reflexes"},
+        {"gene": "Gene LF-8", "confers": "Marksmanship"}
+      ]
+    },
+    {
+      "character_name": "Quicksilver",
+      "affiliation": "Avengers",
+      "known_mutations_genes": ["Gene SS-9", "Gene MV-4"],
+      "primary_powers": ["Super Speed", "Enhanced Reflexes", "Molecular Vibration"],
+      "gene_power_relationships": [
+        {"gene": "Gene SS-9", "confers": "Super Speed"},
+        {"gene": "Gene SS-9", "confers": "Enhanced Reflexes"},
+        {"gene": "Gene MV-4", "confers": "Molecular Vibration"}
+      ]
+    },
+    {
+      "character_name": "Scarlet Witch",
+      "affiliation": "Avengers",
+      "known_mutations_genes": ["Gene CM-7", "Gene RA-3"],
+      "primary_powers": ["Chaos Magic", "Reality Manipulation", "Hex Bolts"],
+      "gene_power_relationships": [
+        {"gene": "Gene CM-7", "confers": "Chaos Magic"},
+        {"gene": "Gene RA-3", "confers": "Reality Manipulation"},
+        {"gene": "Gene CM-7", "confers": "Hex Bolts"}
+      ]
+    },
+    {
+      "character_name": "Vision",
+      "affiliation": "Avengers",
+      "known_mutations_genes": ["Gene SB-1", "Gene DC-5"],
+      "primary_powers": ["Density Manipulation", "Phasing", "Solar Energy Beams"],
+      "gene_power_relationships": [
+        {"gene": "Gene DC-5", "confers": "Density Manipulation"},
+        {"gene": "Gene DC-5", "confers": "Phasing"},
+        {"gene": "Gene SB-1", "confers": "Solar Energy Beams"}
+      ]
+    },
+    {
+      "character_name": "Falcon",
+      "affiliation": "Avengers",
+      "known_mutations_genes": ["Gene BC-2", "Gene EE-7"],
+      "primary_powers": ["Flight", "Bird Communication", "Enhanced Endurance"],
+      "gene_power_relationships": [
+        {"gene": "Gene EE-7", "confers": "Flight"},
+        {"gene": "Gene BC-2", "confers": "Bird Communication"},
+        {"gene": "Gene EE-7", "confers": "Enhanced Endurance"}
+      ]
+    },
+    {
+      "character_name": "Doctor Doom",
+      "affiliation": "None",
+      "known_mutations_genes": ["Gene SG-3", "Gene TG-8"],
+      "primary_powers": ["Magic Manipulation", "Technological Mastery", "Energy Projection"],
+      "gene_power_relationships": [
+        {"gene": "Gene SG-3", "confers": "Magic Manipulation"},
+        {"gene": "Gene TG-8", "confers": "Technological Mastery"},
+        {"gene": "Gene SG-3", "confers": "Energy Projection"}
+      ]
+    },
+    {
+      "character_name": "Green Goblin",
+      "affiliation": "None",
+      "known_mutations_genes": ["Gene GF-1", "Gene ES-4"],
+      "primary_powers": ["Enhanced Strength", "Enhanced Speed", "Regenerative Healing"],
+      "gene_power_relationships": [
+        {"gene": "Gene GF-1", "confers": "Enhanced Strength"},
+        {"gene": "Gene ES-4", "confers": "Enhanced Speed"},
+        {"gene": "Gene GF-1", "confers": "Regenerative Healing"}
+      ]
+    },
+    {
+      "character_name": "Venom",
+      "affiliation": "None",
+      "known_mutations_genes": ["Gene SB-7", "Gene OW-2"],
+      "primary_powers": ["Enhanced Strength", "Web Generation", "Shapeshifting"],
+      "gene_power_relationships": [
+        {"gene": "Gene SB-7", "confers": "Enhanced Strength"},
+        {"gene": "Gene OW-2", "confers": "Web Generation"},
+        {"gene": "Gene SB-7", "confers": "Shapeshifting"}
+      ]
+    },
+    {
+      "character_name": "Carnage",
+      "affiliation": "None",
+      "known_mutations_genes": ["Gene CS-4", "Gene BB-6"],
+      "primary_powers": ["Enhanced Strength", "Weapon Generation", "Symbiote Control"],
+      "gene_power_relationships": [
+        {"gene": "Gene CS-4", "confers": "Enhanced Strength"},
+        {"gene": "Gene BB-6", "confers": "Weapon Generation"},
+        {"gene": "Gene CS-4", "confers": "Symbiote Control"}
+      ]
+    }
+  ]
+}
