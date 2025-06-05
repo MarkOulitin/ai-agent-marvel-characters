@@ -88,7 +88,7 @@ if __name__ == '__main__':
     import uuid
     inputs = {
         "messages": [
-            ("user", "Tell me what you know about Wolverine genes and his team members genes")
+            ("user", "Return all the names team members of X-men with confidence higer than 0.5")
         ]
     }
 

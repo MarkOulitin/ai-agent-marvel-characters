@@ -1,8 +1,9 @@
 import json
 from neo4j import GraphDatabase
-from typing import Dict, List, Any
+from typing import Dict, Any
 import os
 from dotenv import load_dotenv
+from tqdm import tqdm
 
 load_dotenv()
 
@@ -39,47 +40,83 @@ class Neo4jDataIngestion:
     def ingest_character_data(self, character_data: Dict[str, Any]):
         """Ingest a single character's data into Neo4j"""
         with self.driver.session() as session:
-            # Create Character node
+            # Create Character node with text snippet
             character_name = character_data["character_name"]
-            affiliation = character_data.get("affiliation", "Unknown")
+            text_snippet = character_data.get("text_snippet", "")
             
             session.run("""
                 MERGE (c:Character {name: $name})
-            """, name=character_name, affiliation=affiliation)
+                SET c.text_snippet = $text_snippet
+            """, name=character_name, text_snippet=text_snippet)
             
-            # Create Team node and relationship
-            if affiliation != "Unknown":
+            # Create Team node and relationship with confidence
+            affiliation = character_data.get("affiliation")
+            if affiliation and isinstance(affiliation, dict):
+                team_name = affiliation.get("name")
+                confidence = affiliation.get("confidence", 0.0)
+                
+                if team_name:
+                    session.run("""
+                        MERGE (t:Team {name: $team_name})
+                        MERGE (c:Character {name: $character_name})
+                        MERGE (c)-[r:MEMBER_OF]->(t)
+                        SET r.confidence = $confidence
+                    """, team_name=team_name, character_name=character_name, confidence=confidence)
+            elif affiliation and isinstance(affiliation, str) and affiliation != "Unknown":
                 session.run("""
                     MERGE (t:Team {name: $team_name})
                     MERGE (c:Character {name: $character_name})
-                    MERGE (c)-[:MEMBER_OF]->(t)
-                """, team_name=affiliation, character_name=character_name)
+                    MERGE (c)-[r:MEMBER_OF]->(t)
+                    SET r.confidence = $confidence
+                """, team_name=affiliation, character_name=character_name, confidence=1.0)
             
-            # Create Gene nodes and HAS_MUTATION relationships
-            for gene_name in character_data.get("known_mutations_genes", []):
-                session.run("""
-                    MERGE (g:Gene {name: $gene_name})
-                    MERGE (c:Character {name: $character_name})
-                    MERGE (c)-[:HAS_MUTATION]->(g)
-                """, gene_name=gene_name, character_name=character_name)
+            # Create Gene nodes and HAS_MUTATION relationships with confidence
+            for gene_data in character_data.get("known_mutations_genes", []):
+                if isinstance(gene_data, dict):
+                    gene_name = gene_data.get("name")
+                    confidence = gene_data.get("confidence", 0.0)
+                else:
+                    gene_name = gene_data
+                    confidence = 1.0
+                
+                if gene_name:
+                    session.run("""
+                        MERGE (g:Gene {name: $gene_name})
+                        MERGE (c:Character {name: $character_name})
+                        MERGE (c)-[r:HAS_MUTATION]->(g)
+                        SET r.confidence = $confidence
+                    """, gene_name=gene_name, character_name=character_name, confidence=confidence)
             
-            # Create Power nodes and POSSESSES_POWER relationships
-            for power_name in character_data.get("primary_powers", []):
-                session.run("""
-                    MERGE (p:Power {name: $power_name})
-                    MERGE (c:Character {name: $character_name})
-                    MERGE (c)-[:POSSESSES_POWER]->(p)
-                """, power_name=power_name, character_name=character_name)
+            # Create Power nodes and POSSESSES_POWER relationships with confidence
+            for power_data in character_data.get("primary_powers", []):
+                if isinstance(power_data, dict):
+                    power_name = power_data.get("name")
+                    confidence = power_data.get("confidence", 0.0)
+                else:
+                    power_name = power_data
+                    confidence = 1.0
+                
+                if power_name:
+                    session.run("""
+                        MERGE (p:Power {name: $power_name})
+                        MERGE (c:Character {name: $character_name})
+                        MERGE (c)-[r:POSSESSES_POWER]->(p)
+                        SET r.confidence = $confidence
+                    """, power_name=power_name, character_name=character_name, confidence=confidence)
             
-            # Create CONFERS relationships between genes and powers
+            # Create CONFERS relationships between genes and powers with confidence
             for relationship in character_data.get("gene_power_relationships", []):
-                gene_name = relationship["gene"]
-                power_name = relationship["confers"]
-                session.run("""
-                    MERGE (g:Gene {name: $gene_name})
-                    MERGE (p:Power {name: $power_name})
-                    MERGE (g)-[:CONFERS]->(p)
-                """, gene_name=gene_name, power_name=power_name)
+                gene_name = relationship.get("gene")
+                power_name = relationship.get("confers")
+                confidence = relationship.get("confidence", 0.0)
+                
+                if gene_name and power_name:
+                    session.run("""
+                        MERGE (g:Gene {name: $gene_name})
+                        MERGE (p:Power {name: $power_name})
+                        MERGE (g)-[r:CONFERS]->(p)
+                        SET r.confidence = $confidence
+                    """, gene_name=gene_name, power_name=power_name, confidence=confidence)
     
     def ingest_json_file(self, file_path: str):
         """Ingest data from JSON file"""
@@ -89,7 +126,7 @@ class Neo4jDataIngestion:
         self.clear_database()
         self.create_constraints()
         
-        for character in data["characters"]:
+        for character in tqdm(data["characters"], desc='Ingesting characters'):
             self.ingest_character_data(character)
         
         print(f"Ingested {len(data['characters'])} characters into Neo4j")
@@ -106,4 +143,3 @@ if __name__ == "__main__":
         finally:
             ingestion.close()
     main()
-    
