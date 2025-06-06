@@ -14,7 +14,24 @@ Server:
 ```sh
 docker compose up -d
 ```
-
+Wait until you see in the logs that it connected to Neo4j (after Neo4j setup), injested the data and listening on port.
+```
+docker compose logs server -f
+```
+Expected output:
+```
+server  | [5/20] Not connected to Neo4j (probably Neo4j server still in setup): Couldn't connect to neo4j:7687 (resolved to ('172.19.0.3:7687',)):
+server  | Failed to establish connection to ResolvedIPv4Address(('172.19.0.3', 7687)) (reason [Errno 111] Connection refused)
+server  | Successfully connected to Neo4j!
+Ingesting characters: 100%|██████████| 45/45 [00:07<00:00,  6.39it/s]
+server  | Ingested 45 characters into Neo4j
+server  | Data ingested into Neo4j successfully!
+server  | 2025-06-06 06:07:38 - [INFO] Server is listening at port 8000
+server  | INFO:     Started server process [1]
+server  | INFO:     Waiting for application startup.
+server  | INFO:     Application startup complete.
+server  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+```
 # Test
 ## Gradio UI (proxy client to server)
 Run:
